@@ -1,0 +1,21 @@
+{
+  "name": "jvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4"
+  },
+  "description": ""
+}

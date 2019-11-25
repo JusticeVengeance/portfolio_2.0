@@ -1,0 +1,2401 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json jvp@1.0.0 No description
+5 warn package.json jvp@1.0.0 No repository field.
+6 warn package.json jvp@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/Justin/Desktop/JVP',
+8 verbose install   [ 'bulma', 'sass', 'node-sass', 'nodemon' ] ]
+9 info preinstall jvp@1.0.0
+10 warn package.json copy-descriptor@0.1.1 No README data
+11 warn package.json get-value@2.0.6 No README data
+12 warn package.json object-copy@0.1.0 No README data
+13 warn package.json path-is-inside@1.0.2 No README data
+14 warn package.json pstree.remy@1.1.7 No repository field.
+15 warn package.json pstree.remy@1.1.7 No README data
+16 warn package.json static-extend@0.1.2 No README data
+17 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+18 warn package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+19 verbose readDependencies using package.json deps
+20 verbose already installed skipping bulma@^0.7.2 /Users/Justin/Desktop/JVP
+21 verbose already installed skipping sass@^1.15.1 /Users/Justin/Desktop/JVP
+22 verbose already installed skipping node-sass@^4.13.0 /Users/Justin/Desktop/JVP
+23 verbose already installed skipping nodemon@^1.19.4 /Users/Justin/Desktop/JVP
+24 silly resolved []
+25 info build /Users/Justin/Desktop/JVP
+26 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop' ]
+27 info linkStuff jvp@1.0.0
+28 verbose linkBins jvp@1.0.0
+29 verbose linkMans jvp@1.0.0
+30 verbose rebuildBundles jvp@1.0.0
+31 verbose rebuildBundles [ '.bin',
+31 verbose rebuildBundles   'abbrev',
+31 verbose rebuildBundles   'ajv',
+31 verbose rebuildBundles   'amdefine',
+31 verbose rebuildBundles   'ansi-align',
+31 verbose rebuildBundles   'ansi-regex',
+31 verbose rebuildBundles   'ansi-styles',
+31 verbose rebuildBundles   'anymatch',
+31 verbose rebuildBundles   'aproba',
+31 verbose rebuildBundles   'are-we-there-yet',
+31 verbose rebuildBundles   'arr-diff',
+31 verbose rebuildBundles   'arr-flatten',
+31 verbose rebuildBundles   'arr-union',
+31 verbose rebuildBundles   'array-find-index',
+31 verbose rebuildBundles   'array-unique',
+31 verbose rebuildBundles   'asn1',
+31 verbose rebuildBundles   'assert-plus',
+31 verbose rebuildBundles   'assign-symbols',
+31 verbose rebuildBundles   'async-each',
+31 verbose rebuildBundles   'async-foreach',
+31 verbose rebuildBundles   'asynckit',
+31 verbose rebuildBundles   'atob',
+31 verbose rebuildBundles   'aws-sign2',
+31 verbose rebuildBundles   'aws4',
+31 verbose rebuildBundles   'balanced-match',
+31 verbose rebuildBundles   'base',
+31 verbose rebuildBundles   'bcrypt-pbkdf',
+31 verbose rebuildBundles   'binary-extensions',
+31 verbose rebuildBundles   'block-stream',
+31 verbose rebuildBundles   'boxen',
+31 verbose rebuildBundles   'brace-expansion',
+31 verbose rebuildBundles   'braces',
+31 verbose rebuildBundles   'bulma',
+31 verbose rebuildBundles   'cache-base',
+31 verbose rebuildBundles   'camelcase',
+31 verbose rebuildBundles   'camelcase-keys',
+31 verbose rebuildBundles   'capture-stack-trace',
+31 verbose rebuildBundles   'caseless',
+31 verbose rebuildBundles   'chalk',
+31 verbose rebuildBundles   'chokidar',
+31 verbose rebuildBundles   'ci-info',
+31 verbose rebuildBundles   'class-utils',
+31 verbose rebuildBundles   'cli-boxes',
+31 verbose rebuildBundles   'cliui',
+31 verbose rebuildBundles   'code-point-at',
+31 verbose rebuildBundles   'collection-visit',
+31 verbose rebuildBundles   'color-convert',
+31 verbose rebuildBundles   'color-name',
+31 verbose rebuildBundles   'combined-stream',
+31 verbose rebuildBundles   'component-emitter',
+31 verbose rebuildBundles   'concat-map',
+31 verbose rebuildBundles   'configstore',
+31 verbose rebuildBundles   'console-control-strings',
+31 verbose rebuildBundles   'copy-descriptor',
+31 verbose rebuildBundles   'core-util-is',
+31 verbose rebuildBundles   'create-error-class',
+31 verbose rebuildBundles   'cross-spawn',
+31 verbose rebuildBundles   'crypto-random-string',
+31 verbose rebuildBundles   'currently-unhandled',
+31 verbose rebuildBundles   'dashdash',
+31 verbose rebuildBundles   'debug',
+31 verbose rebuildBundles   'decamelize',
+31 verbose rebuildBundles   'decode-uri-component',
+31 verbose rebuildBundles   'deep-extend',
+31 verbose rebuildBundles   'define-property',
+31 verbose rebuildBundles   'delayed-stream',
+31 verbose rebuildBundles   'delegates',
+31 verbose rebuildBundles   'dot-prop',
+31 verbose rebuildBundles   'duplexer3',
+31 verbose rebuildBundles   'ecc-jsbn',
+31 verbose rebuildBundles   'error-ex',
+31 verbose rebuildBundles   'escape-string-regexp',
+31 verbose rebuildBundles   'execa',
+31 verbose rebuildBundles   'expand-brackets',
+31 verbose rebuildBundles   'extend',
+31 verbose rebuildBundles   'extend-shallow',
+31 verbose rebuildBundles   'extglob',
+31 verbose rebuildBundles   'extsprintf',
+31 verbose rebuildBundles   'fast-deep-equal',
+31 verbose rebuildBundles   'fast-json-stable-stringify',
+31 verbose rebuildBundles   'fill-range',
+31 verbose rebuildBundles   'find-up',
+31 verbose rebuildBundles   'for-in',
+31 verbose rebuildBundles   'forever-agent',
+31 verbose rebuildBundles   'form-data',
+31 verbose rebuildBundles   'fragment-cache',
+31 verbose rebuildBundles   'fs.realpath',
+31 verbose rebuildBundles   'fsevents',
+31 verbose rebuildBundles   'fstream',
+31 verbose rebuildBundles   'gauge',
+31 verbose rebuildBundles   'gaze',
+31 verbose rebuildBundles   'get-caller-file',
+31 verbose rebuildBundles   'get-stdin',
+31 verbose rebuildBundles   'get-stream',
+31 verbose rebuildBundles   'get-value',
+31 verbose rebuildBundles   'getpass',
+31 verbose rebuildBundles   'glob',
+31 verbose rebuildBundles   'glob-parent',
+31 verbose rebuildBundles   'global-dirs',
+31 verbose rebuildBundles   'globule',
+31 verbose rebuildBundles   'got',
+31 verbose rebuildBundles   'graceful-fs',
+31 verbose rebuildBundles   'har-schema',
+31 verbose rebuildBundles   'har-validator',
+31 verbose rebuildBundles   'has-ansi',
+31 verbose rebuildBundles   'has-flag',
+31 verbose rebuildBundles   'has-unicode',
+31 verbose rebuildBundles   'has-value',
+31 verbose rebuildBundles   'has-values',
+31 verbose rebuildBundles   'hosted-git-info',
+31 verbose rebuildBundles   'http-signature',
+31 verbose rebuildBundles   'ignore-by-default',
+31 verbose rebuildBundles   'import-lazy',
+31 verbose rebuildBundles   'imurmurhash',
+31 verbose rebuildBundles   'in-publish',
+31 verbose rebuildBundles   'indent-string',
+31 verbose rebuildBundles   'inflight',
+31 verbose rebuildBundles   'inherits',
+31 verbose rebuildBundles   'ini',
+31 verbose rebuildBundles   'invert-kv',
+31 verbose rebuildBundles   'is-accessor-descriptor',
+31 verbose rebuildBundles   'is-arrayish',
+31 verbose rebuildBundles   'is-binary-path',
+31 verbose rebuildBundles   'is-buffer',
+31 verbose rebuildBundles   'is-ci',
+31 verbose rebuildBundles   'is-data-descriptor',
+31 verbose rebuildBundles   'is-descriptor',
+31 verbose rebuildBundles   'is-extendable',
+31 verbose rebuildBundles   'is-extglob',
+31 verbose rebuildBundles   'is-finite',
+31 verbose rebuildBundles   'is-fullwidth-code-point',
+31 verbose rebuildBundles   'is-glob',
+31 verbose rebuildBundles   'is-installed-globally',
+31 verbose rebuildBundles   'is-npm',
+31 verbose rebuildBundles   'is-number',
+31 verbose rebuildBundles   'is-obj',
+31 verbose rebuildBundles   'is-path-inside',
+31 verbose rebuildBundles   'is-plain-object',
+31 verbose rebuildBundles   'is-redirect',
+31 verbose rebuildBundles   'is-retry-allowed',
+31 verbose rebuildBundles   'is-stream',
+31 verbose rebuildBundles   'is-typedarray',
+31 verbose rebuildBundles   'is-utf8',
+31 verbose rebuildBundles   'is-windows',
+31 verbose rebuildBundles   'isarray',
+31 verbose rebuildBundles   'isexe',
+31 verbose rebuildBundles   'isobject',
+31 verbose rebuildBundles   'isstream',
+31 verbose rebuildBundles   'js-base64',
+31 verbose rebuildBundles   'jsbn',
+31 verbose rebuildBundles   'json-schema',
+31 verbose rebuildBundles   'json-schema-traverse',
+31 verbose rebuildBundles   'json-stringify-safe',
+31 verbose rebuildBundles   'jsprim',
+31 verbose rebuildBundles   'kind-of',
+31 verbose rebuildBundles   'latest-version',
+31 verbose rebuildBundles   'lcid',
+31 verbose rebuildBundles   'load-json-file',
+31 verbose rebuildBundles   'lodash',
+31 verbose rebuildBundles   'loud-rejection',
+31 verbose rebuildBundles   'lowercase-keys',
+31 verbose rebuildBundles   'lru-cache',
+31 verbose rebuildBundles   'make-dir',
+31 verbose rebuildBundles   'map-cache',
+31 verbose rebuildBundles   'map-obj',
+31 verbose rebuildBundles   'map-visit',
+31 verbose rebuildBundles   'meow',
+31 verbose rebuildBundles   'micromatch',
+31 verbose rebuildBundles   'mime-db',
+31 verbose rebuildBundles   'mime-types',
+31 verbose rebuildBundles   'minimatch',
+31 verbose rebuildBundles   'minimist',
+31 verbose rebuildBundles   'mixin-deep',
+31 verbose rebuildBundles   'mkdirp',
+31 verbose rebuildBundles   'ms',
+31 verbose rebuildBundles   'nan',
+31 verbose rebuildBundles   'nanomatch',
+31 verbose rebuildBundles   'node-gyp',
+31 verbose rebuildBundles   'node-sass',
+31 verbose rebuildBundles   'nodemon',
+31 verbose rebuildBundles   'nopt',
+31 verbose rebuildBundles   'normalize-package-data',
+31 verbose rebuildBundles   'normalize-path',
+31 verbose rebuildBundles   'npm-run-path',
+31 verbose rebuildBundles   'npmlog',
+31 verbose rebuildBundles   'number-is-nan',
+31 verbose rebuildBundles   'oauth-sign',
+31 verbose rebuildBundles   'object-assign',
+31 verbose rebuildBundles   'object-copy',
+31 verbose rebuildBundles   'object-visit',
+31 verbose rebuildBundles   'object.pick',
+31 verbose rebuildBundles   'once',
+31 verbose rebuildBundles   'os-homedir',
+31 verbose rebuildBundles   'os-locale',
+31 verbose rebuildBundles   'os-tmpdir',
+31 verbose rebuildBundles   'osenv',
+31 verbose rebuildBundles   'p-finally',
+31 verbose rebuildBundles   'package-json',
+31 verbose rebuildBundles   'parse-json',
+31 verbose rebuildBundles   'pascalcase',
+31 verbose rebuildBundles   'path-dirname',
+31 verbose rebuildBundles   'path-exists',
+31 verbose rebuildBundles   'path-is-absolute',
+31 verbose rebuildBundles   'path-is-inside',
+31 verbose rebuildBundles   'path-key',
+31 verbose rebuildBundles   'path-parse',
+31 verbose rebuildBundles   'path-type',
+31 verbose rebuildBundles   'performance-now',
+31 verbose rebuildBundles   'pify',
+31 verbose rebuildBundles   'pinkie',
+31 verbose rebuildBundles   'pinkie-promise',
+31 verbose rebuildBundles   'posix-character-classes',
+31 verbose rebuildBundles   'prepend-http',
+31 verbose rebuildBundles   'process-nextick-args',
+31 verbose rebuildBundles   'pseudomap',
+31 verbose rebuildBundles   'psl',
+31 verbose rebuildBundles   'pstree.remy',
+31 verbose rebuildBundles   'punycode',
+31 verbose rebuildBundles   'qs',
+31 verbose rebuildBundles   'rc',
+31 verbose rebuildBundles   'read-pkg',
+31 verbose rebuildBundles   'read-pkg-up',
+31 verbose rebuildBundles   'readable-stream',
+31 verbose rebuildBundles   'readdirp',
+31 verbose rebuildBundles   'redent',
+31 verbose rebuildBundles   'regex-not',
+31 verbose rebuildBundles   'registry-auth-token',
+31 verbose rebuildBundles   'registry-url',
+31 verbose rebuildBundles   'remove-trailing-separator',
+31 verbose rebuildBundles   'repeat-element',
+31 verbose rebuildBundles   'repeat-string',
+31 verbose rebuildBundles   'repeating',
+31 verbose rebuildBundles   'request',
+31 verbose rebuildBundles   'require-directory',
+31 verbose rebuildBundles   'require-main-filename',
+31 verbose rebuildBundles   'resolve',
+31 verbose rebuildBundles   'resolve-url',
+31 verbose rebuildBundles   'ret',
+31 verbose rebuildBundles   'rimraf',
+31 verbose rebuildBundles   'safe-buffer',
+31 verbose rebuildBundles   'safe-regex',
+31 verbose rebuildBundles   'safer-buffer',
+31 verbose rebuildBundles   'sass',
+31 verbose rebuildBundles   'sass-graph',
+31 verbose rebuildBundles   'scss-tokenizer',
+31 verbose rebuildBundles   'semver',
+31 verbose rebuildBundles   'semver-diff',
+31 verbose rebuildBundles   'set-blocking',
+31 verbose rebuildBundles   'set-value',
+31 verbose rebuildBundles   'shebang-command',
+31 verbose rebuildBundles   'shebang-regex',
+31 verbose rebuildBundles   'signal-exit',
+31 verbose rebuildBundles   'snapdragon',
+31 verbose rebuildBundles   'snapdragon-node',
+31 verbose rebuildBundles   'snapdragon-util',
+31 verbose rebuildBundles   'source-map',
+31 verbose rebuildBundles   'source-map-resolve',
+31 verbose rebuildBundles   'source-map-url',
+31 verbose rebuildBundles   'spdx-correct',
+31 verbose rebuildBundles   'spdx-exceptions',
+31 verbose rebuildBundles   'spdx-expression-parse',
+31 verbose rebuildBundles   'spdx-license-ids',
+31 verbose rebuildBundles   'split-string',
+31 verbose rebuildBundles   'sshpk',
+31 verbose rebuildBundles   'static-extend',
+31 verbose rebuildBundles   'stdout-stream',
+31 verbose rebuildBundles   'string-width',
+31 verbose rebuildBundles   'string_decoder',
+31 verbose rebuildBundles   'strip-ansi',
+31 verbose rebuildBundles   'strip-bom',
+31 verbose rebuildBundles   'strip-eof',
+31 verbose rebuildBundles   'strip-indent',
+31 verbose rebuildBundles   'strip-json-comments',
+31 verbose rebuildBundles   'supports-color',
+31 verbose rebuildBundles   'tar',
+31 verbose rebuildBundles   'term-size',
+31 verbose rebuildBundles   'timed-out',
+31 verbose rebuildBundles   'to-object-path',
+31 verbose rebuildBundles   'to-regex',
+31 verbose rebuildBundles   'to-regex-range',
+31 verbose rebuildBundles   'touch',
+31 verbose rebuildBundles   'tough-cookie',
+31 verbose rebuildBundles   'trim-newlines',
+31 verbose rebuildBundles   'true-case-path',
+31 verbose rebuildBundles   'tunnel-agent',
+31 verbose rebuildBundles   'tweetnacl',
+31 verbose rebuildBundles   'undefsafe',
+31 verbose rebuildBundles   'union-value',
+31 verbose rebuildBundles   'unique-string',
+31 verbose rebuildBundles   'unset-value',
+31 verbose rebuildBundles   'unzip-response',
+31 verbose rebuildBundles   'upath',
+31 verbose rebuildBundles   'update-notifier',
+31 verbose rebuildBundles   'uri-js',
+31 verbose rebuildBundles   'urix',
+31 verbose rebuildBundles   'url-parse-lax',
+31 verbose rebuildBundles   'use',
+31 verbose rebuildBundles   'util-deprecate',
+31 verbose rebuildBundles   'uuid',
+31 verbose rebuildBundles   'validate-npm-package-license',
+31 verbose rebuildBundles   'verror',
+31 verbose rebuildBundles   'which',
+31 verbose rebuildBundles   'which-module',
+31 verbose rebuildBundles   'wide-align',
+31 verbose rebuildBundles   'widest-line',
+31 verbose rebuildBundles   'wrap-ansi',
+31 verbose rebuildBundles   'wrappy',
+31 verbose rebuildBundles   'write-file-atomic',
+31 verbose rebuildBundles   'xdg-basedir',
+31 verbose rebuildBundles   'y18n',
+31 verbose rebuildBundles   'yallist',
+31 verbose rebuildBundles   'yargs',
+31 verbose rebuildBundles   'yargs-parser' ]
+32 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/abbrev
+33 info build /Users/Justin/Desktop/JVP/node_modules/abbrev
+34 info preinstall abbrev@1.1.1
+35 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+36 info linkStuff abbrev@1.1.1
+37 verbose linkBins abbrev@1.1.1
+38 verbose linkMans abbrev@1.1.1
+39 verbose rebuildBundles abbrev@1.1.1
+40 info install abbrev@1.1.1
+41 info postinstall abbrev@1.1.1
+42 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ajv
+43 info build /Users/Justin/Desktop/JVP/node_modules/ajv
+44 info preinstall ajv@6.10.2
+45 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+46 info linkStuff ajv@6.10.2
+47 verbose linkBins ajv@6.10.2
+48 verbose linkMans ajv@6.10.2
+49 verbose rebuildBundles ajv@6.10.2
+50 info install ajv@6.10.2
+51 info postinstall ajv@6.10.2
+52 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/amdefine
+53 info build /Users/Justin/Desktop/JVP/node_modules/amdefine
+54 info preinstall amdefine@1.0.1
+55 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+56 info linkStuff amdefine@1.0.1
+57 verbose linkBins amdefine@1.0.1
+58 verbose linkMans amdefine@1.0.1
+59 verbose rebuildBundles amdefine@1.0.1
+60 info install amdefine@1.0.1
+61 info postinstall amdefine@1.0.1
+62 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-align
+63 info build /Users/Justin/Desktop/JVP/node_modules/ansi-align
+64 info preinstall ansi-align@2.0.0
+65 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+66 info linkStuff ansi-align@2.0.0
+67 verbose linkBins ansi-align@2.0.0
+68 verbose linkMans ansi-align@2.0.0
+69 verbose rebuildBundles ansi-align@2.0.0
+70 verbose rebuildBundles [ 'ansi-regex',
+70 verbose rebuildBundles   'is-fullwidth-code-point',
+70 verbose rebuildBundles   'string-width',
+70 verbose rebuildBundles   'strip-ansi' ]
+71 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/ansi-regex
+72 info build /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/ansi-regex
+73 info preinstall ansi-regex@3.0.0
+74 verbose linkStuff [ false,
+74 verbose linkStuff   false,
+74 verbose linkStuff   false,
+74 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules' ]
+75 info linkStuff ansi-regex@3.0.0
+76 verbose linkBins ansi-regex@3.0.0
+77 verbose linkMans ansi-regex@3.0.0
+78 verbose rebuildBundles ansi-regex@3.0.0
+79 info install ansi-regex@3.0.0
+80 info postinstall ansi-regex@3.0.0
+81 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/is-fullwidth-code-point
+82 info build /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/is-fullwidth-code-point
+83 info preinstall is-fullwidth-code-point@2.0.0
+84 verbose linkStuff [ false,
+84 verbose linkStuff   false,
+84 verbose linkStuff   false,
+84 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules' ]
+85 info linkStuff is-fullwidth-code-point@2.0.0
+86 verbose linkBins is-fullwidth-code-point@2.0.0
+87 verbose linkMans is-fullwidth-code-point@2.0.0
+88 verbose rebuildBundles is-fullwidth-code-point@2.0.0
+89 info install is-fullwidth-code-point@2.0.0
+90 info postinstall is-fullwidth-code-point@2.0.0
+91 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/strip-ansi
+92 info build /Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules/strip-ansi
+93 info preinstall strip-ansi@4.0.0
+94 verbose linkStuff [ false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/ansi-align/node_modules' ]
+95 info linkStuff strip-ansi@4.0.0
+96 verbose linkBins strip-ansi@4.0.0
+97 verbose linkMans strip-ansi@4.0.0
+98 verbose rebuildBundles strip-ansi@4.0.0
+99 info install strip-ansi@4.0.0
+100 info postinstall strip-ansi@4.0.0
+101 info install ansi-align@2.0.0
+102 info postinstall ansi-align@2.0.0
+103 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-regex
+104 info build /Users/Justin/Desktop/JVP/node_modules/ansi-regex
+105 info preinstall ansi-regex@2.1.1
+106 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+107 info linkStuff ansi-regex@2.1.1
+108 verbose linkBins ansi-regex@2.1.1
+109 verbose linkMans ansi-regex@2.1.1
+110 verbose rebuildBundles ansi-regex@2.1.1
+111 info install ansi-regex@2.1.1
+112 info postinstall ansi-regex@2.1.1
+113 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ansi-styles
+114 info build /Users/Justin/Desktop/JVP/node_modules/ansi-styles
+115 info preinstall ansi-styles@2.2.1
+116 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+117 info linkStuff ansi-styles@2.2.1
+118 verbose linkBins ansi-styles@2.2.1
+119 verbose linkMans ansi-styles@2.2.1
+120 verbose rebuildBundles ansi-styles@2.2.1
+121 info install ansi-styles@2.2.1
+122 info postinstall ansi-styles@2.2.1
+123 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/anymatch
+124 info build /Users/Justin/Desktop/JVP/node_modules/anymatch
+125 info preinstall anymatch@2.0.0
+126 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+127 info linkStuff anymatch@2.0.0
+128 verbose linkBins anymatch@2.0.0
+129 verbose linkMans anymatch@2.0.0
+130 verbose rebuildBundles anymatch@2.0.0
+131 verbose rebuildBundles [ 'normalize-path' ]
+132 info install anymatch@2.0.0
+133 info postinstall anymatch@2.0.0
+134 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/aproba
+135 info build /Users/Justin/Desktop/JVP/node_modules/aproba
+136 info preinstall aproba@1.2.0
+137 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+138 info linkStuff aproba@1.2.0
+139 verbose linkBins aproba@1.2.0
+140 verbose linkMans aproba@1.2.0
+141 verbose rebuildBundles aproba@1.2.0
+142 info install aproba@1.2.0
+143 info postinstall aproba@1.2.0
+144 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/are-we-there-yet
+145 info build /Users/Justin/Desktop/JVP/node_modules/are-we-there-yet
+146 info preinstall are-we-there-yet@1.1.5
+147 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+148 info linkStuff are-we-there-yet@1.1.5
+149 verbose linkBins are-we-there-yet@1.1.5
+150 verbose linkMans are-we-there-yet@1.1.5
+151 verbose rebuildBundles are-we-there-yet@1.1.5
+152 info install are-we-there-yet@1.1.5
+153 info postinstall are-we-there-yet@1.1.5
+154 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/arr-diff
+155 info build /Users/Justin/Desktop/JVP/node_modules/arr-diff
+156 info preinstall arr-diff@4.0.0
+157 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+158 info linkStuff arr-diff@4.0.0
+159 verbose linkBins arr-diff@4.0.0
+160 verbose linkMans arr-diff@4.0.0
+161 verbose rebuildBundles arr-diff@4.0.0
+162 info install arr-diff@4.0.0
+163 info postinstall arr-diff@4.0.0
+164 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/arr-flatten
+165 info build /Users/Justin/Desktop/JVP/node_modules/arr-flatten
+166 info preinstall arr-flatten@1.1.0
+167 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+168 info linkStuff arr-flatten@1.1.0
+169 verbose linkBins arr-flatten@1.1.0
+170 verbose linkMans arr-flatten@1.1.0
+171 verbose rebuildBundles arr-flatten@1.1.0
+172 info install arr-flatten@1.1.0
+173 info postinstall arr-flatten@1.1.0
+174 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/arr-union
+175 info build /Users/Justin/Desktop/JVP/node_modules/arr-union
+176 info preinstall arr-union@3.1.0
+177 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+178 info linkStuff arr-union@3.1.0
+179 verbose linkBins arr-union@3.1.0
+180 verbose linkMans arr-union@3.1.0
+181 verbose rebuildBundles arr-union@3.1.0
+182 info install arr-union@3.1.0
+183 info postinstall arr-union@3.1.0
+184 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/array-find-index
+185 info build /Users/Justin/Desktop/JVP/node_modules/array-find-index
+186 info preinstall array-find-index@1.0.2
+187 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+188 info linkStuff array-find-index@1.0.2
+189 verbose linkBins array-find-index@1.0.2
+190 verbose linkMans array-find-index@1.0.2
+191 verbose rebuildBundles array-find-index@1.0.2
+192 info install array-find-index@1.0.2
+193 info postinstall array-find-index@1.0.2
+194 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/array-unique
+195 info build /Users/Justin/Desktop/JVP/node_modules/array-unique
+196 info preinstall array-unique@0.3.2
+197 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+198 info linkStuff array-unique@0.3.2
+199 verbose linkBins array-unique@0.3.2
+200 verbose linkMans array-unique@0.3.2
+201 verbose rebuildBundles array-unique@0.3.2
+202 info install array-unique@0.3.2
+203 info postinstall array-unique@0.3.2
+204 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/asn1
+205 info build /Users/Justin/Desktop/JVP/node_modules/asn1
+206 info preinstall asn1@0.2.4
+207 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+208 info linkStuff asn1@0.2.4
+209 verbose linkBins asn1@0.2.4
+210 verbose linkMans asn1@0.2.4
+211 verbose rebuildBundles asn1@0.2.4
+212 info install asn1@0.2.4
+213 info postinstall asn1@0.2.4
+214 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/assert-plus
+215 info build /Users/Justin/Desktop/JVP/node_modules/assert-plus
+216 info preinstall assert-plus@1.0.0
+217 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+218 info linkStuff assert-plus@1.0.0
+219 verbose linkBins assert-plus@1.0.0
+220 verbose linkMans assert-plus@1.0.0
+221 verbose rebuildBundles assert-plus@1.0.0
+222 info install assert-plus@1.0.0
+223 info postinstall assert-plus@1.0.0
+224 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/assign-symbols
+225 info build /Users/Justin/Desktop/JVP/node_modules/assign-symbols
+226 info preinstall assign-symbols@1.0.0
+227 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+228 info linkStuff assign-symbols@1.0.0
+229 verbose linkBins assign-symbols@1.0.0
+230 verbose linkMans assign-symbols@1.0.0
+231 verbose rebuildBundles assign-symbols@1.0.0
+232 info install assign-symbols@1.0.0
+233 info postinstall assign-symbols@1.0.0
+234 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/async-each
+235 info build /Users/Justin/Desktop/JVP/node_modules/async-each
+236 info preinstall async-each@1.0.3
+237 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+238 info linkStuff async-each@1.0.3
+239 verbose linkBins async-each@1.0.3
+240 verbose linkMans async-each@1.0.3
+241 verbose rebuildBundles async-each@1.0.3
+242 info install async-each@1.0.3
+243 info postinstall async-each@1.0.3
+244 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/async-foreach
+245 info build /Users/Justin/Desktop/JVP/node_modules/async-foreach
+246 info preinstall async-foreach@0.1.3
+247 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+248 info linkStuff async-foreach@0.1.3
+249 verbose linkBins async-foreach@0.1.3
+250 verbose linkMans async-foreach@0.1.3
+251 verbose rebuildBundles async-foreach@0.1.3
+252 info install async-foreach@0.1.3
+253 info postinstall async-foreach@0.1.3
+254 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/asynckit
+255 info build /Users/Justin/Desktop/JVP/node_modules/asynckit
+256 info preinstall asynckit@0.4.0
+257 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+258 info linkStuff asynckit@0.4.0
+259 verbose linkBins asynckit@0.4.0
+260 verbose linkMans asynckit@0.4.0
+261 verbose rebuildBundles asynckit@0.4.0
+262 info install asynckit@0.4.0
+263 info postinstall asynckit@0.4.0
+264 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/atob
+265 info build /Users/Justin/Desktop/JVP/node_modules/atob
+266 info preinstall atob@2.1.2
+267 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+268 info linkStuff atob@2.1.2
+269 verbose linkBins atob@2.1.2
+270 verbose link bins [ { atob: 'bin/atob.js' },
+270 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/.bin',
+270 verbose link bins   false ]
+271 verbose linkMans atob@2.1.2
+272 verbose rebuildBundles atob@2.1.2
+273 info install atob@2.1.2
+274 info postinstall atob@2.1.2
+275 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/aws-sign2
+276 info build /Users/Justin/Desktop/JVP/node_modules/aws-sign2
+277 info preinstall aws-sign2@0.7.0
+278 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+279 info linkStuff aws-sign2@0.7.0
+280 verbose linkBins aws-sign2@0.7.0
+281 verbose linkMans aws-sign2@0.7.0
+282 verbose rebuildBundles aws-sign2@0.7.0
+283 info install aws-sign2@0.7.0
+284 info postinstall aws-sign2@0.7.0
+285 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/aws4
+286 info build /Users/Justin/Desktop/JVP/node_modules/aws4
+287 info preinstall aws4@1.8.0
+288 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+289 info linkStuff aws4@1.8.0
+290 verbose linkBins aws4@1.8.0
+291 verbose linkMans aws4@1.8.0
+292 verbose rebuildBundles aws4@1.8.0
+293 info install aws4@1.8.0
+294 info postinstall aws4@1.8.0
+295 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/balanced-match
+296 info build /Users/Justin/Desktop/JVP/node_modules/balanced-match
+297 info preinstall balanced-match@1.0.0
+298 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+299 info linkStuff balanced-match@1.0.0
+300 verbose linkBins balanced-match@1.0.0
+301 verbose linkMans balanced-match@1.0.0
+302 verbose rebuildBundles balanced-match@1.0.0
+303 info install balanced-match@1.0.0
+304 info postinstall balanced-match@1.0.0
+305 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/base
+306 info build /Users/Justin/Desktop/JVP/node_modules/base
+307 info preinstall base@0.11.2
+308 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+309 info linkStuff base@0.11.2
+310 verbose linkBins base@0.11.2
+311 verbose linkMans base@0.11.2
+312 verbose rebuildBundles base@0.11.2
+313 verbose rebuildBundles [ 'define-property',
+313 verbose rebuildBundles   'is-accessor-descriptor',
+313 verbose rebuildBundles   'is-data-descriptor',
+313 verbose rebuildBundles   'is-descriptor' ]
+314 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-accessor-descriptor
+315 info build /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-accessor-descriptor
+316 info preinstall is-accessor-descriptor@1.0.0
+317 verbose linkStuff [ false,
+317 verbose linkStuff   false,
+317 verbose linkStuff   false,
+317 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/base/node_modules' ]
+318 info linkStuff is-accessor-descriptor@1.0.0
+319 verbose linkBins is-accessor-descriptor@1.0.0
+320 verbose linkMans is-accessor-descriptor@1.0.0
+321 verbose rebuildBundles is-accessor-descriptor@1.0.0
+322 info install is-accessor-descriptor@1.0.0
+323 info postinstall is-accessor-descriptor@1.0.0
+324 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-data-descriptor
+325 info build /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-data-descriptor
+326 info preinstall is-data-descriptor@1.0.0
+327 verbose linkStuff [ false,
+327 verbose linkStuff   false,
+327 verbose linkStuff   false,
+327 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/base/node_modules' ]
+328 info linkStuff is-data-descriptor@1.0.0
+329 verbose linkBins is-data-descriptor@1.0.0
+330 verbose linkMans is-data-descriptor@1.0.0
+331 verbose rebuildBundles is-data-descriptor@1.0.0
+332 info install is-data-descriptor@1.0.0
+333 info postinstall is-data-descriptor@1.0.0
+334 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-descriptor
+335 info build /Users/Justin/Desktop/JVP/node_modules/base/node_modules/is-descriptor
+336 info preinstall is-descriptor@1.0.2
+337 verbose linkStuff [ false,
+337 verbose linkStuff   false,
+337 verbose linkStuff   false,
+337 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/base/node_modules' ]
+338 info linkStuff is-descriptor@1.0.2
+339 verbose linkBins is-descriptor@1.0.2
+340 verbose linkMans is-descriptor@1.0.2
+341 verbose rebuildBundles is-descriptor@1.0.2
+342 info install is-descriptor@1.0.2
+343 info postinstall is-descriptor@1.0.2
+344 info install base@0.11.2
+345 info postinstall base@0.11.2
+346 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/bcrypt-pbkdf
+347 info build /Users/Justin/Desktop/JVP/node_modules/bcrypt-pbkdf
+348 info preinstall bcrypt-pbkdf@1.0.2
+349 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+350 info linkStuff bcrypt-pbkdf@1.0.2
+351 verbose linkBins bcrypt-pbkdf@1.0.2
+352 verbose linkMans bcrypt-pbkdf@1.0.2
+353 verbose rebuildBundles bcrypt-pbkdf@1.0.2
+354 info install bcrypt-pbkdf@1.0.2
+355 info postinstall bcrypt-pbkdf@1.0.2
+356 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/binary-extensions
+357 info build /Users/Justin/Desktop/JVP/node_modules/binary-extensions
+358 info preinstall binary-extensions@1.13.1
+359 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+360 info linkStuff binary-extensions@1.13.1
+361 verbose linkBins binary-extensions@1.13.1
+362 verbose linkMans binary-extensions@1.13.1
+363 verbose rebuildBundles binary-extensions@1.13.1
+364 info install binary-extensions@1.13.1
+365 info postinstall binary-extensions@1.13.1
+366 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/block-stream
+367 info build /Users/Justin/Desktop/JVP/node_modules/block-stream
+368 info preinstall block-stream@0.0.9
+369 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+370 info linkStuff block-stream@0.0.9
+371 verbose linkBins block-stream@0.0.9
+372 verbose linkMans block-stream@0.0.9
+373 verbose rebuildBundles block-stream@0.0.9
+374 info install block-stream@0.0.9
+375 info postinstall block-stream@0.0.9
+376 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen
+377 info build /Users/Justin/Desktop/JVP/node_modules/boxen
+378 info preinstall boxen@1.3.0
+379 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+380 info linkStuff boxen@1.3.0
+381 verbose linkBins boxen@1.3.0
+382 verbose linkMans boxen@1.3.0
+383 verbose rebuildBundles boxen@1.3.0
+384 verbose rebuildBundles [ 'ansi-regex',
+384 verbose rebuildBundles   'ansi-styles',
+384 verbose rebuildBundles   'camelcase',
+384 verbose rebuildBundles   'chalk',
+384 verbose rebuildBundles   'is-fullwidth-code-point',
+384 verbose rebuildBundles   'string-width',
+384 verbose rebuildBundles   'strip-ansi',
+384 verbose rebuildBundles   'supports-color' ]
+385 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/ansi-regex
+386 info build /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/ansi-regex
+387 info preinstall ansi-regex@3.0.0
+388 verbose linkStuff [ false,
+388 verbose linkStuff   false,
+388 verbose linkStuff   false,
+388 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/boxen/node_modules' ]
+389 info linkStuff ansi-regex@3.0.0
+390 verbose linkBins ansi-regex@3.0.0
+391 verbose linkMans ansi-regex@3.0.0
+392 verbose rebuildBundles ansi-regex@3.0.0
+393 info install ansi-regex@3.0.0
+394 info postinstall ansi-regex@3.0.0
+395 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/ansi-styles
+396 info build /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/ansi-styles
+397 info preinstall ansi-styles@3.2.1
+398 verbose linkStuff [ false,
+398 verbose linkStuff   false,
+398 verbose linkStuff   false,
+398 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/boxen/node_modules' ]
+399 info linkStuff ansi-styles@3.2.1
+400 verbose linkBins ansi-styles@3.2.1
+401 verbose linkMans ansi-styles@3.2.1
+402 verbose rebuildBundles ansi-styles@3.2.1
+403 info install ansi-styles@3.2.1
+404 info postinstall ansi-styles@3.2.1
+405 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/is-fullwidth-code-point
+406 info build /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/is-fullwidth-code-point
+407 info preinstall is-fullwidth-code-point@2.0.0
+408 verbose linkStuff [ false,
+408 verbose linkStuff   false,
+408 verbose linkStuff   false,
+408 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/boxen/node_modules' ]
+409 info linkStuff is-fullwidth-code-point@2.0.0
+410 verbose linkBins is-fullwidth-code-point@2.0.0
+411 verbose linkMans is-fullwidth-code-point@2.0.0
+412 verbose rebuildBundles is-fullwidth-code-point@2.0.0
+413 info install is-fullwidth-code-point@2.0.0
+414 info postinstall is-fullwidth-code-point@2.0.0
+415 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/strip-ansi
+416 info build /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/strip-ansi
+417 info preinstall strip-ansi@4.0.0
+418 verbose linkStuff [ false,
+418 verbose linkStuff   false,
+418 verbose linkStuff   false,
+418 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/boxen/node_modules' ]
+419 info linkStuff strip-ansi@4.0.0
+420 verbose linkBins strip-ansi@4.0.0
+421 verbose linkMans strip-ansi@4.0.0
+422 verbose rebuildBundles strip-ansi@4.0.0
+423 info install strip-ansi@4.0.0
+424 info postinstall strip-ansi@4.0.0
+425 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/supports-color
+426 info build /Users/Justin/Desktop/JVP/node_modules/boxen/node_modules/supports-color
+427 info preinstall supports-color@5.5.0
+428 verbose linkStuff [ false,
+428 verbose linkStuff   false,
+428 verbose linkStuff   false,
+428 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/boxen/node_modules' ]
+429 info linkStuff supports-color@5.5.0
+430 verbose linkBins supports-color@5.5.0
+431 verbose linkMans supports-color@5.5.0
+432 verbose rebuildBundles supports-color@5.5.0
+433 info install supports-color@5.5.0
+434 info postinstall supports-color@5.5.0
+435 info install boxen@1.3.0
+436 info postinstall boxen@1.3.0
+437 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/brace-expansion
+438 info build /Users/Justin/Desktop/JVP/node_modules/brace-expansion
+439 info preinstall brace-expansion@1.1.11
+440 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+441 info linkStuff brace-expansion@1.1.11
+442 verbose linkBins brace-expansion@1.1.11
+443 verbose linkMans brace-expansion@1.1.11
+444 verbose rebuildBundles brace-expansion@1.1.11
+445 info install brace-expansion@1.1.11
+446 info postinstall brace-expansion@1.1.11
+447 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/braces
+448 info build /Users/Justin/Desktop/JVP/node_modules/braces
+449 info preinstall braces@2.3.2
+450 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+451 info linkStuff braces@2.3.2
+452 verbose linkBins braces@2.3.2
+453 verbose linkMans braces@2.3.2
+454 verbose rebuildBundles braces@2.3.2
+455 verbose rebuildBundles [ 'extend-shallow' ]
+456 info install braces@2.3.2
+457 info postinstall braces@2.3.2
+458 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/cache-base
+459 info build /Users/Justin/Desktop/JVP/node_modules/cache-base
+460 info preinstall cache-base@1.0.1
+461 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+462 info linkStuff cache-base@1.0.1
+463 verbose linkBins cache-base@1.0.1
+464 verbose linkMans cache-base@1.0.1
+465 verbose rebuildBundles cache-base@1.0.1
+466 info install cache-base@1.0.1
+467 info postinstall cache-base@1.0.1
+468 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/camelcase
+469 info build /Users/Justin/Desktop/JVP/node_modules/camelcase
+470 info preinstall camelcase@2.1.1
+471 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+472 info linkStuff camelcase@2.1.1
+473 verbose linkBins camelcase@2.1.1
+474 verbose linkMans camelcase@2.1.1
+475 verbose rebuildBundles camelcase@2.1.1
+476 info install camelcase@2.1.1
+477 info postinstall camelcase@2.1.1
+478 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/camelcase-keys
+479 info build /Users/Justin/Desktop/JVP/node_modules/camelcase-keys
+480 info preinstall camelcase-keys@2.1.0
+481 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+482 info linkStuff camelcase-keys@2.1.0
+483 verbose linkBins camelcase-keys@2.1.0
+484 verbose linkMans camelcase-keys@2.1.0
+485 verbose rebuildBundles camelcase-keys@2.1.0
+486 info install camelcase-keys@2.1.0
+487 info postinstall camelcase-keys@2.1.0
+488 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/capture-stack-trace
+489 info build /Users/Justin/Desktop/JVP/node_modules/capture-stack-trace
+490 info preinstall capture-stack-trace@1.0.1
+491 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+492 info linkStuff capture-stack-trace@1.0.1
+493 verbose linkBins capture-stack-trace@1.0.1
+494 verbose linkMans capture-stack-trace@1.0.1
+495 verbose rebuildBundles capture-stack-trace@1.0.1
+496 info install capture-stack-trace@1.0.1
+497 info postinstall capture-stack-trace@1.0.1
+498 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/caseless
+499 info build /Users/Justin/Desktop/JVP/node_modules/caseless
+500 info preinstall caseless@0.12.0
+501 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+502 info linkStuff caseless@0.12.0
+503 verbose linkBins caseless@0.12.0
+504 verbose linkMans caseless@0.12.0
+505 verbose rebuildBundles caseless@0.12.0
+506 info install caseless@0.12.0
+507 info postinstall caseless@0.12.0
+508 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/chalk
+509 info build /Users/Justin/Desktop/JVP/node_modules/chalk
+510 info preinstall chalk@1.1.3
+511 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+512 info linkStuff chalk@1.1.3
+513 verbose linkBins chalk@1.1.3
+514 verbose linkMans chalk@1.1.3
+515 verbose rebuildBundles chalk@1.1.3
+516 info install chalk@1.1.3
+517 info postinstall chalk@1.1.3
+518 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/chokidar
+519 info build /Users/Justin/Desktop/JVP/node_modules/chokidar
+520 info preinstall chokidar@2.1.8
+521 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+522 info linkStuff chokidar@2.1.8
+523 verbose linkBins chokidar@2.1.8
+524 verbose linkMans chokidar@2.1.8
+525 verbose rebuildBundles chokidar@2.1.8
+526 info install chokidar@2.1.8
+527 info postinstall chokidar@2.1.8
+528 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ci-info
+529 info build /Users/Justin/Desktop/JVP/node_modules/ci-info
+530 info preinstall ci-info@1.6.0
+531 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+532 info linkStuff ci-info@1.6.0
+533 verbose linkBins ci-info@1.6.0
+534 verbose linkMans ci-info@1.6.0
+535 verbose rebuildBundles ci-info@1.6.0
+536 info install ci-info@1.6.0
+537 info postinstall ci-info@1.6.0
+538 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/class-utils
+539 info build /Users/Justin/Desktop/JVP/node_modules/class-utils
+540 info preinstall class-utils@0.3.6
+541 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+542 info linkStuff class-utils@0.3.6
+543 verbose linkBins class-utils@0.3.6
+544 verbose linkMans class-utils@0.3.6
+545 verbose rebuildBundles class-utils@0.3.6
+546 verbose rebuildBundles [ 'define-property' ]
+547 info install class-utils@0.3.6
+548 info postinstall class-utils@0.3.6
+549 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/cli-boxes
+550 info build /Users/Justin/Desktop/JVP/node_modules/cli-boxes
+551 info preinstall cli-boxes@1.0.0
+552 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+553 info linkStuff cli-boxes@1.0.0
+554 verbose linkBins cli-boxes@1.0.0
+555 verbose linkMans cli-boxes@1.0.0
+556 verbose rebuildBundles cli-boxes@1.0.0
+557 info install cli-boxes@1.0.0
+558 info postinstall cli-boxes@1.0.0
+559 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/cliui
+560 info build /Users/Justin/Desktop/JVP/node_modules/cliui
+561 info preinstall cliui@3.2.0
+562 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+563 info linkStuff cliui@3.2.0
+564 verbose linkBins cliui@3.2.0
+565 verbose linkMans cliui@3.2.0
+566 verbose rebuildBundles cliui@3.2.0
+567 info install cliui@3.2.0
+568 info postinstall cliui@3.2.0
+569 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/code-point-at
+570 info build /Users/Justin/Desktop/JVP/node_modules/code-point-at
+571 info preinstall code-point-at@1.1.0
+572 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+573 info linkStuff code-point-at@1.1.0
+574 verbose linkBins code-point-at@1.1.0
+575 verbose linkMans code-point-at@1.1.0
+576 verbose rebuildBundles code-point-at@1.1.0
+577 info install code-point-at@1.1.0
+578 info postinstall code-point-at@1.1.0
+579 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/collection-visit
+580 info build /Users/Justin/Desktop/JVP/node_modules/collection-visit
+581 info preinstall collection-visit@1.0.0
+582 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+583 info linkStuff collection-visit@1.0.0
+584 verbose linkBins collection-visit@1.0.0
+585 verbose linkMans collection-visit@1.0.0
+586 verbose rebuildBundles collection-visit@1.0.0
+587 info install collection-visit@1.0.0
+588 info postinstall collection-visit@1.0.0
+589 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/color-convert
+590 info build /Users/Justin/Desktop/JVP/node_modules/color-convert
+591 info preinstall color-convert@1.9.3
+592 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+593 info linkStuff color-convert@1.9.3
+594 verbose linkBins color-convert@1.9.3
+595 verbose linkMans color-convert@1.9.3
+596 verbose rebuildBundles color-convert@1.9.3
+597 info install color-convert@1.9.3
+598 info postinstall color-convert@1.9.3
+599 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/color-name
+600 info build /Users/Justin/Desktop/JVP/node_modules/color-name
+601 info preinstall color-name@1.1.3
+602 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+603 info linkStuff color-name@1.1.3
+604 verbose linkBins color-name@1.1.3
+605 verbose linkMans color-name@1.1.3
+606 verbose rebuildBundles color-name@1.1.3
+607 info install color-name@1.1.3
+608 info postinstall color-name@1.1.3
+609 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/combined-stream
+610 info build /Users/Justin/Desktop/JVP/node_modules/combined-stream
+611 info preinstall combined-stream@1.0.8
+612 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+613 info linkStuff combined-stream@1.0.8
+614 verbose linkBins combined-stream@1.0.8
+615 verbose linkMans combined-stream@1.0.8
+616 verbose rebuildBundles combined-stream@1.0.8
+617 info install combined-stream@1.0.8
+618 info postinstall combined-stream@1.0.8
+619 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/component-emitter
+620 info build /Users/Justin/Desktop/JVP/node_modules/component-emitter
+621 info preinstall component-emitter@1.3.0
+622 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+623 info linkStuff component-emitter@1.3.0
+624 verbose linkBins component-emitter@1.3.0
+625 verbose linkMans component-emitter@1.3.0
+626 verbose rebuildBundles component-emitter@1.3.0
+627 info install component-emitter@1.3.0
+628 info postinstall component-emitter@1.3.0
+629 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/concat-map
+630 info build /Users/Justin/Desktop/JVP/node_modules/concat-map
+631 info preinstall concat-map@0.0.1
+632 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+633 info linkStuff concat-map@0.0.1
+634 verbose linkBins concat-map@0.0.1
+635 verbose linkMans concat-map@0.0.1
+636 verbose rebuildBundles concat-map@0.0.1
+637 info install concat-map@0.0.1
+638 info postinstall concat-map@0.0.1
+639 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/configstore
+640 info build /Users/Justin/Desktop/JVP/node_modules/configstore
+641 info preinstall configstore@3.1.2
+642 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+643 info linkStuff configstore@3.1.2
+644 verbose linkBins configstore@3.1.2
+645 verbose linkMans configstore@3.1.2
+646 verbose rebuildBundles configstore@3.1.2
+647 info install configstore@3.1.2
+648 info postinstall configstore@3.1.2
+649 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/console-control-strings
+650 info build /Users/Justin/Desktop/JVP/node_modules/console-control-strings
+651 info preinstall console-control-strings@1.1.0
+652 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+653 info linkStuff console-control-strings@1.1.0
+654 verbose linkBins console-control-strings@1.1.0
+655 verbose linkMans console-control-strings@1.1.0
+656 verbose rebuildBundles console-control-strings@1.1.0
+657 info install console-control-strings@1.1.0
+658 info postinstall console-control-strings@1.1.0
+659 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/copy-descriptor
+660 info build /Users/Justin/Desktop/JVP/node_modules/copy-descriptor
+661 info preinstall copy-descriptor@0.1.1
+662 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+663 info linkStuff copy-descriptor@0.1.1
+664 verbose linkBins copy-descriptor@0.1.1
+665 verbose linkMans copy-descriptor@0.1.1
+666 verbose rebuildBundles copy-descriptor@0.1.1
+667 info install copy-descriptor@0.1.1
+668 info postinstall copy-descriptor@0.1.1
+669 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/core-util-is
+670 info build /Users/Justin/Desktop/JVP/node_modules/core-util-is
+671 info preinstall core-util-is@1.0.2
+672 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+673 info linkStuff core-util-is@1.0.2
+674 verbose linkBins core-util-is@1.0.2
+675 verbose linkMans core-util-is@1.0.2
+676 verbose rebuildBundles core-util-is@1.0.2
+677 info install core-util-is@1.0.2
+678 info postinstall core-util-is@1.0.2
+679 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/create-error-class
+680 info build /Users/Justin/Desktop/JVP/node_modules/create-error-class
+681 info preinstall create-error-class@3.0.2
+682 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+683 info linkStuff create-error-class@3.0.2
+684 verbose linkBins create-error-class@3.0.2
+685 verbose linkMans create-error-class@3.0.2
+686 verbose rebuildBundles create-error-class@3.0.2
+687 info install create-error-class@3.0.2
+688 info postinstall create-error-class@3.0.2
+689 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/cross-spawn
+690 info build /Users/Justin/Desktop/JVP/node_modules/cross-spawn
+691 info preinstall cross-spawn@3.0.1
+692 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+693 info linkStuff cross-spawn@3.0.1
+694 verbose linkBins cross-spawn@3.0.1
+695 verbose linkMans cross-spawn@3.0.1
+696 verbose rebuildBundles cross-spawn@3.0.1
+697 info install cross-spawn@3.0.1
+698 info postinstall cross-spawn@3.0.1
+699 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/crypto-random-string
+700 info build /Users/Justin/Desktop/JVP/node_modules/crypto-random-string
+701 info preinstall crypto-random-string@1.0.0
+702 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+703 info linkStuff crypto-random-string@1.0.0
+704 verbose linkBins crypto-random-string@1.0.0
+705 verbose linkMans crypto-random-string@1.0.0
+706 verbose rebuildBundles crypto-random-string@1.0.0
+707 info install crypto-random-string@1.0.0
+708 info postinstall crypto-random-string@1.0.0
+709 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/currently-unhandled
+710 info build /Users/Justin/Desktop/JVP/node_modules/currently-unhandled
+711 info preinstall currently-unhandled@0.4.1
+712 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+713 info linkStuff currently-unhandled@0.4.1
+714 verbose linkBins currently-unhandled@0.4.1
+715 verbose linkMans currently-unhandled@0.4.1
+716 verbose rebuildBundles currently-unhandled@0.4.1
+717 info install currently-unhandled@0.4.1
+718 info postinstall currently-unhandled@0.4.1
+719 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/dashdash
+720 info build /Users/Justin/Desktop/JVP/node_modules/dashdash
+721 info preinstall dashdash@1.14.1
+722 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+723 info linkStuff dashdash@1.14.1
+724 verbose linkBins dashdash@1.14.1
+725 verbose linkMans dashdash@1.14.1
+726 verbose rebuildBundles dashdash@1.14.1
+727 info install dashdash@1.14.1
+728 info postinstall dashdash@1.14.1
+729 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/debug
+730 info build /Users/Justin/Desktop/JVP/node_modules/debug
+731 info preinstall debug@2.6.9
+732 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+733 info linkStuff debug@2.6.9
+734 verbose linkBins debug@2.6.9
+735 verbose linkMans debug@2.6.9
+736 verbose rebuildBundles debug@2.6.9
+737 info install debug@2.6.9
+738 info postinstall debug@2.6.9
+739 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/decamelize
+740 info build /Users/Justin/Desktop/JVP/node_modules/decamelize
+741 info preinstall decamelize@1.2.0
+742 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+743 info linkStuff decamelize@1.2.0
+744 verbose linkBins decamelize@1.2.0
+745 verbose linkMans decamelize@1.2.0
+746 verbose rebuildBundles decamelize@1.2.0
+747 info install decamelize@1.2.0
+748 info postinstall decamelize@1.2.0
+749 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/decode-uri-component
+750 info build /Users/Justin/Desktop/JVP/node_modules/decode-uri-component
+751 info preinstall decode-uri-component@0.2.0
+752 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+753 info linkStuff decode-uri-component@0.2.0
+754 verbose linkBins decode-uri-component@0.2.0
+755 verbose linkMans decode-uri-component@0.2.0
+756 verbose rebuildBundles decode-uri-component@0.2.0
+757 info install decode-uri-component@0.2.0
+758 info postinstall decode-uri-component@0.2.0
+759 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/deep-extend
+760 info build /Users/Justin/Desktop/JVP/node_modules/deep-extend
+761 info preinstall deep-extend@0.6.0
+762 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+763 info linkStuff deep-extend@0.6.0
+764 verbose linkBins deep-extend@0.6.0
+765 verbose linkMans deep-extend@0.6.0
+766 verbose rebuildBundles deep-extend@0.6.0
+767 info install deep-extend@0.6.0
+768 info postinstall deep-extend@0.6.0
+769 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/define-property
+770 info build /Users/Justin/Desktop/JVP/node_modules/define-property
+771 info preinstall define-property@2.0.2
+772 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+773 info linkStuff define-property@2.0.2
+774 verbose linkBins define-property@2.0.2
+775 verbose linkMans define-property@2.0.2
+776 verbose rebuildBundles define-property@2.0.2
+777 verbose rebuildBundles [ 'is-accessor-descriptor',
+777 verbose rebuildBundles   'is-data-descriptor',
+777 verbose rebuildBundles   'is-descriptor' ]
+778 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/define-property/node_modules/is-accessor-descriptor
+779 info build /Users/Justin/Desktop/JVP/node_modules/define-property/node_modules/is-accessor-descriptor
+780 info preinstall is-accessor-descriptor@1.0.0
+781 verbose linkStuff [ false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/define-property/node_modules' ]
+782 info linkStuff is-accessor-descriptor@1.0.0
+783 verbose linkBins is-accessor-descriptor@1.0.0
+784 verbose linkMans is-accessor-descriptor@1.0.0
+785 verbose rebuildBundles is-accessor-descriptor@1.0.0
+786 info install is-accessor-descriptor@1.0.0
+787 info postinstall is-accessor-descriptor@1.0.0
+788 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/define-property/node_modules/is-data-descriptor
+789 info build /Users/Justin/Desktop/JVP/node_modules/define-property/node_modules/is-data-descriptor
+790 info preinstall is-data-descriptor@1.0.0
+791 verbose linkStuff [ false,
+791 verbose linkStuff   false,
+791 verbose linkStuff   false,
+791 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/define-property/node_modules' ]
+792 info linkStuff is-data-descriptor@1.0.0
+793 verbose linkBins is-data-descriptor@1.0.0
+794 verbose linkMans is-data-descriptor@1.0.0
+795 verbose rebuildBundles is-data-descriptor@1.0.0
+796 info install is-data-descriptor@1.0.0
+797 info postinstall is-data-descriptor@1.0.0
+798 info install define-property@2.0.2
+799 info postinstall define-property@2.0.2
+800 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/delayed-stream
+801 info build /Users/Justin/Desktop/JVP/node_modules/delayed-stream
+802 info preinstall delayed-stream@1.0.0
+803 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+804 info linkStuff delayed-stream@1.0.0
+805 verbose linkBins delayed-stream@1.0.0
+806 verbose linkMans delayed-stream@1.0.0
+807 verbose rebuildBundles delayed-stream@1.0.0
+808 info install delayed-stream@1.0.0
+809 info postinstall delayed-stream@1.0.0
+810 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/delegates
+811 info build /Users/Justin/Desktop/JVP/node_modules/delegates
+812 info preinstall delegates@1.0.0
+813 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+814 info linkStuff delegates@1.0.0
+815 verbose linkBins delegates@1.0.0
+816 verbose linkMans delegates@1.0.0
+817 verbose rebuildBundles delegates@1.0.0
+818 info install delegates@1.0.0
+819 info postinstall delegates@1.0.0
+820 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/dot-prop
+821 info build /Users/Justin/Desktop/JVP/node_modules/dot-prop
+822 info preinstall dot-prop@4.2.0
+823 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+824 info linkStuff dot-prop@4.2.0
+825 verbose linkBins dot-prop@4.2.0
+826 verbose linkMans dot-prop@4.2.0
+827 verbose rebuildBundles dot-prop@4.2.0
+828 info install dot-prop@4.2.0
+829 info postinstall dot-prop@4.2.0
+830 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/duplexer3
+831 info build /Users/Justin/Desktop/JVP/node_modules/duplexer3
+832 info preinstall duplexer3@0.1.4
+833 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+834 info linkStuff duplexer3@0.1.4
+835 verbose linkBins duplexer3@0.1.4
+836 verbose linkMans duplexer3@0.1.4
+837 verbose rebuildBundles duplexer3@0.1.4
+838 info install duplexer3@0.1.4
+839 info postinstall duplexer3@0.1.4
+840 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/ecc-jsbn
+841 info build /Users/Justin/Desktop/JVP/node_modules/ecc-jsbn
+842 info preinstall ecc-jsbn@0.1.2
+843 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+844 info linkStuff ecc-jsbn@0.1.2
+845 verbose linkBins ecc-jsbn@0.1.2
+846 verbose linkMans ecc-jsbn@0.1.2
+847 verbose rebuildBundles ecc-jsbn@0.1.2
+848 info install ecc-jsbn@0.1.2
+849 info postinstall ecc-jsbn@0.1.2
+850 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/error-ex
+851 info build /Users/Justin/Desktop/JVP/node_modules/error-ex
+852 info preinstall error-ex@1.3.2
+853 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+854 info linkStuff error-ex@1.3.2
+855 verbose linkBins error-ex@1.3.2
+856 verbose linkMans error-ex@1.3.2
+857 verbose rebuildBundles error-ex@1.3.2
+858 info install error-ex@1.3.2
+859 info postinstall error-ex@1.3.2
+860 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/escape-string-regexp
+861 info build /Users/Justin/Desktop/JVP/node_modules/escape-string-regexp
+862 info preinstall escape-string-regexp@1.0.5
+863 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+864 info linkStuff escape-string-regexp@1.0.5
+865 verbose linkBins escape-string-regexp@1.0.5
+866 verbose linkMans escape-string-regexp@1.0.5
+867 verbose rebuildBundles escape-string-regexp@1.0.5
+868 info install escape-string-regexp@1.0.5
+869 info postinstall escape-string-regexp@1.0.5
+870 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/execa
+871 info build /Users/Justin/Desktop/JVP/node_modules/execa
+872 info preinstall execa@0.7.0
+873 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+874 info linkStuff execa@0.7.0
+875 verbose linkBins execa@0.7.0
+876 verbose linkMans execa@0.7.0
+877 verbose rebuildBundles execa@0.7.0
+878 verbose rebuildBundles [ 'cross-spawn' ]
+879 info install execa@0.7.0
+880 info postinstall execa@0.7.0
+881 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/expand-brackets
+882 info build /Users/Justin/Desktop/JVP/node_modules/expand-brackets
+883 info preinstall expand-brackets@2.1.4
+884 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+885 info linkStuff expand-brackets@2.1.4
+886 verbose linkBins expand-brackets@2.1.4
+887 verbose linkMans expand-brackets@2.1.4
+888 verbose rebuildBundles expand-brackets@2.1.4
+889 verbose rebuildBundles [ 'define-property', 'extend-shallow' ]
+890 info install expand-brackets@2.1.4
+891 info postinstall expand-brackets@2.1.4
+892 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extend
+893 info build /Users/Justin/Desktop/JVP/node_modules/extend
+894 info preinstall extend@3.0.2
+895 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+896 info linkStuff extend@3.0.2
+897 verbose linkBins extend@3.0.2
+898 verbose linkMans extend@3.0.2
+899 verbose rebuildBundles extend@3.0.2
+900 info install extend@3.0.2
+901 info postinstall extend@3.0.2
+902 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extend-shallow
+903 info build /Users/Justin/Desktop/JVP/node_modules/extend-shallow
+904 info preinstall extend-shallow@3.0.2
+905 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+906 info linkStuff extend-shallow@3.0.2
+907 verbose linkBins extend-shallow@3.0.2
+908 verbose linkMans extend-shallow@3.0.2
+909 verbose rebuildBundles extend-shallow@3.0.2
+910 verbose rebuildBundles [ 'is-extendable' ]
+911 info install extend-shallow@3.0.2
+912 info postinstall extend-shallow@3.0.2
+913 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extglob
+914 info build /Users/Justin/Desktop/JVP/node_modules/extglob
+915 info preinstall extglob@2.0.4
+916 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+917 info linkStuff extglob@2.0.4
+918 verbose linkBins extglob@2.0.4
+919 verbose linkMans extglob@2.0.4
+920 verbose rebuildBundles extglob@2.0.4
+921 verbose rebuildBundles [ 'define-property',
+921 verbose rebuildBundles   'extend-shallow',
+921 verbose rebuildBundles   'is-accessor-descriptor',
+921 verbose rebuildBundles   'is-data-descriptor',
+921 verbose rebuildBundles   'is-descriptor' ]
+922 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-accessor-descriptor
+923 info build /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-accessor-descriptor
+924 info preinstall is-accessor-descriptor@1.0.0
+925 verbose linkStuff [ false,
+925 verbose linkStuff   false,
+925 verbose linkStuff   false,
+925 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/extglob/node_modules' ]
+926 info linkStuff is-accessor-descriptor@1.0.0
+927 verbose linkBins is-accessor-descriptor@1.0.0
+928 verbose linkMans is-accessor-descriptor@1.0.0
+929 verbose rebuildBundles is-accessor-descriptor@1.0.0
+930 info install is-accessor-descriptor@1.0.0
+931 info postinstall is-accessor-descriptor@1.0.0
+932 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-data-descriptor
+933 info build /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-data-descriptor
+934 info preinstall is-data-descriptor@1.0.0
+935 verbose linkStuff [ false,
+935 verbose linkStuff   false,
+935 verbose linkStuff   false,
+935 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/extglob/node_modules' ]
+936 info linkStuff is-data-descriptor@1.0.0
+937 verbose linkBins is-data-descriptor@1.0.0
+938 verbose linkMans is-data-descriptor@1.0.0
+939 verbose rebuildBundles is-data-descriptor@1.0.0
+940 info install is-data-descriptor@1.0.0
+941 info postinstall is-data-descriptor@1.0.0
+942 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-descriptor
+943 info build /Users/Justin/Desktop/JVP/node_modules/extglob/node_modules/is-descriptor
+944 info preinstall is-descriptor@1.0.2
+945 verbose linkStuff [ false,
+945 verbose linkStuff   false,
+945 verbose linkStuff   false,
+945 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/extglob/node_modules' ]
+946 info linkStuff is-descriptor@1.0.2
+947 verbose linkBins is-descriptor@1.0.2
+948 verbose linkMans is-descriptor@1.0.2
+949 verbose rebuildBundles is-descriptor@1.0.2
+950 info install is-descriptor@1.0.2
+951 info postinstall is-descriptor@1.0.2
+952 info install extglob@2.0.4
+953 info postinstall extglob@2.0.4
+954 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/extsprintf
+955 info build /Users/Justin/Desktop/JVP/node_modules/extsprintf
+956 info preinstall extsprintf@1.3.0
+957 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+958 info linkStuff extsprintf@1.3.0
+959 verbose linkBins extsprintf@1.3.0
+960 verbose linkMans extsprintf@1.3.0
+961 verbose rebuildBundles extsprintf@1.3.0
+962 info install extsprintf@1.3.0
+963 info postinstall extsprintf@1.3.0
+964 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fast-deep-equal
+965 info build /Users/Justin/Desktop/JVP/node_modules/fast-deep-equal
+966 info preinstall fast-deep-equal@2.0.1
+967 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+968 info linkStuff fast-deep-equal@2.0.1
+969 verbose linkBins fast-deep-equal@2.0.1
+970 verbose linkMans fast-deep-equal@2.0.1
+971 verbose rebuildBundles fast-deep-equal@2.0.1
+972 info install fast-deep-equal@2.0.1
+973 info postinstall fast-deep-equal@2.0.1
+974 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fast-json-stable-stringify
+975 info build /Users/Justin/Desktop/JVP/node_modules/fast-json-stable-stringify
+976 info preinstall fast-json-stable-stringify@2.0.0
+977 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+978 info linkStuff fast-json-stable-stringify@2.0.0
+979 verbose linkBins fast-json-stable-stringify@2.0.0
+980 verbose linkMans fast-json-stable-stringify@2.0.0
+981 verbose rebuildBundles fast-json-stable-stringify@2.0.0
+982 info install fast-json-stable-stringify@2.0.0
+983 info postinstall fast-json-stable-stringify@2.0.0
+984 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fill-range
+985 info build /Users/Justin/Desktop/JVP/node_modules/fill-range
+986 info preinstall fill-range@4.0.0
+987 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+988 info linkStuff fill-range@4.0.0
+989 verbose linkBins fill-range@4.0.0
+990 verbose linkMans fill-range@4.0.0
+991 verbose rebuildBundles fill-range@4.0.0
+992 verbose rebuildBundles [ 'extend-shallow' ]
+993 info install fill-range@4.0.0
+994 info postinstall fill-range@4.0.0
+995 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/find-up
+996 info build /Users/Justin/Desktop/JVP/node_modules/find-up
+997 info preinstall find-up@1.1.2
+998 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+999 info linkStuff find-up@1.1.2
+1000 verbose linkBins find-up@1.1.2
+1001 verbose linkMans find-up@1.1.2
+1002 verbose rebuildBundles find-up@1.1.2
+1003 info install find-up@1.1.2
+1004 info postinstall find-up@1.1.2
+1005 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/for-in
+1006 info build /Users/Justin/Desktop/JVP/node_modules/for-in
+1007 info preinstall for-in@1.0.2
+1008 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1009 info linkStuff for-in@1.0.2
+1010 verbose linkBins for-in@1.0.2
+1011 verbose linkMans for-in@1.0.2
+1012 verbose rebuildBundles for-in@1.0.2
+1013 info install for-in@1.0.2
+1014 info postinstall for-in@1.0.2
+1015 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/forever-agent
+1016 info build /Users/Justin/Desktop/JVP/node_modules/forever-agent
+1017 info preinstall forever-agent@0.6.1
+1018 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1019 info linkStuff forever-agent@0.6.1
+1020 verbose linkBins forever-agent@0.6.1
+1021 verbose linkMans forever-agent@0.6.1
+1022 verbose rebuildBundles forever-agent@0.6.1
+1023 info install forever-agent@0.6.1
+1024 info postinstall forever-agent@0.6.1
+1025 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/form-data
+1026 info build /Users/Justin/Desktop/JVP/node_modules/form-data
+1027 info preinstall form-data@2.3.3
+1028 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1029 info linkStuff form-data@2.3.3
+1030 verbose linkBins form-data@2.3.3
+1031 verbose linkMans form-data@2.3.3
+1032 verbose rebuildBundles form-data@2.3.3
+1033 info install form-data@2.3.3
+1034 info postinstall form-data@2.3.3
+1035 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fragment-cache
+1036 info build /Users/Justin/Desktop/JVP/node_modules/fragment-cache
+1037 info preinstall fragment-cache@0.2.1
+1038 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1039 info linkStuff fragment-cache@0.2.1
+1040 verbose linkBins fragment-cache@0.2.1
+1041 verbose linkMans fragment-cache@0.2.1
+1042 verbose rebuildBundles fragment-cache@0.2.1
+1043 info install fragment-cache@0.2.1
+1044 info postinstall fragment-cache@0.2.1
+1045 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fs.realpath
+1046 info build /Users/Justin/Desktop/JVP/node_modules/fs.realpath
+1047 info preinstall fs.realpath@1.0.0
+1048 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1049 info linkStuff fs.realpath@1.0.0
+1050 verbose linkBins fs.realpath@1.0.0
+1051 verbose linkMans fs.realpath@1.0.0
+1052 verbose rebuildBundles fs.realpath@1.0.0
+1053 info install fs.realpath@1.0.0
+1054 info postinstall fs.realpath@1.0.0
+1055 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents
+1056 info build /Users/Justin/Desktop/JVP/node_modules/fsevents
+1057 info preinstall fsevents@1.2.9
+1058 verbose linkStuff [ false, false, false, '/Users/Justin/Desktop/JVP/node_modules' ]
+1059 info linkStuff fsevents@1.2.9
+1060 verbose linkBins fsevents@1.2.9
+1061 verbose linkMans fsevents@1.2.9
+1062 verbose rebuildBundles fsevents@1.2.9
+1063 verbose rebuildBundles [ '.bin',
+1063 verbose rebuildBundles   'abbrev',
+1063 verbose rebuildBundles   'ansi-regex',
+1063 verbose rebuildBundles   'aproba',
+1063 verbose rebuildBundles   'are-we-there-yet',
+1063 verbose rebuildBundles   'balanced-match',
+1063 verbose rebuildBundles   'brace-expansion',
+1063 verbose rebuildBundles   'chownr',
+1063 verbose rebuildBundles   'code-point-at',
+1063 verbose rebuildBundles   'concat-map',
+1063 verbose rebuildBundles   'console-control-strings',
+1063 verbose rebuildBundles   'core-util-is',
+1063 verbose rebuildBundles   'debug',
+1063 verbose rebuildBundles   'deep-extend',
+1063 verbose rebuildBundles   'delegates',
+1063 verbose rebuildBundles   'detect-libc',
+1063 verbose rebuildBundles   'fs-minipass',
+1063 verbose rebuildBundles   'fs.realpath',
+1063 verbose rebuildBundles   'gauge',
+1063 verbose rebuildBundles   'glob',
+1063 verbose rebuildBundles   'has-unicode',
+1063 verbose rebuildBundles   'iconv-lite',
+1063 verbose rebuildBundles   'ignore-walk',
+1063 verbose rebuildBundles   'inflight',
+1063 verbose rebuildBundles   'inherits',
+1063 verbose rebuildBundles   'ini',
+1063 verbose rebuildBundles   'is-fullwidth-code-point',
+1063 verbose rebuildBundles   'isarray',
+1063 verbose rebuildBundles   'minimatch',
+1063 verbose rebuildBundles   'minimist',
+1063 verbose rebuildBundles   'minipass',
+1063 verbose rebuildBundles   'minizlib',
+1063 verbose rebuildBundles   'mkdirp',
+1063 verbose rebuildBundles   'ms',
+1063 verbose rebuildBundles   'needle',
+1063 verbose rebuildBundles   'node-pre-gyp',
+1063 verbose rebuildBundles   'nopt',
+1063 verbose rebuildBundles   'npm-bundled',
+1063 verbose rebuildBundles   'npm-packlist',
+1063 verbose rebuildBundles   'npmlog',
+1063 verbose rebuildBundles   'number-is-nan',
+1063 verbose rebuildBundles   'object-assign',
+1063 verbose rebuildBundles   'once',
+1063 verbose rebuildBundles   'os-homedir',
+1063 verbose rebuildBundles   'os-tmpdir',
+1063 verbose rebuildBundles   'osenv',
+1063 verbose rebuildBundles   'path-is-absolute',
+1063 verbose rebuildBundles   'process-nextick-args',
+1063 verbose rebuildBundles   'rc',
+1063 verbose rebuildBundles   'readable-stream',
+1063 verbose rebuildBundles   'rimraf',
+1063 verbose rebuildBundles   'safe-buffer',
+1063 verbose rebuildBundles   'safer-buffer',
+1063 verbose rebuildBundles   'sax',
+1063 verbose rebuildBundles   'semver',
+1063 verbose rebuildBundles   'set-blocking',
+1063 verbose rebuildBundles   'signal-exit',
+1063 verbose rebuildBundles   'string-width',
+1063 verbose rebuildBundles   'string_decoder',
+1063 verbose rebuildBundles   'strip-ansi',
+1063 verbose rebuildBundles   'strip-json-comments',
+1063 verbose rebuildBundles   'tar',
+1063 verbose rebuildBundles   'util-deprecate',
+1063 verbose rebuildBundles   'wide-align',
+1063 verbose rebuildBundles   'wrappy',
+1063 verbose rebuildBundles   'yallist' ]
+1064 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/abbrev
+1065 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/abbrev
+1066 info preinstall abbrev@1.1.1
+1067 verbose linkStuff [ false,
+1067 verbose linkStuff   false,
+1067 verbose linkStuff   false,
+1067 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1068 info linkStuff abbrev@1.1.1
+1069 verbose linkBins abbrev@1.1.1
+1070 verbose linkMans abbrev@1.1.1
+1071 verbose rebuildBundles abbrev@1.1.1
+1072 info install abbrev@1.1.1
+1073 info postinstall abbrev@1.1.1
+1074 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ansi-regex
+1075 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ansi-regex
+1076 info preinstall ansi-regex@2.1.1
+1077 verbose linkStuff [ false,
+1077 verbose linkStuff   false,
+1077 verbose linkStuff   false,
+1077 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1078 info linkStuff ansi-regex@2.1.1
+1079 verbose linkBins ansi-regex@2.1.1
+1080 verbose linkMans ansi-regex@2.1.1
+1081 verbose rebuildBundles ansi-regex@2.1.1
+1082 info install ansi-regex@2.1.1
+1083 info postinstall ansi-regex@2.1.1
+1084 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/aproba
+1085 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/aproba
+1086 info preinstall aproba@1.2.0
+1087 verbose linkStuff [ false,
+1087 verbose linkStuff   false,
+1087 verbose linkStuff   false,
+1087 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1088 info linkStuff aproba@1.2.0
+1089 verbose linkBins aproba@1.2.0
+1090 verbose linkMans aproba@1.2.0
+1091 verbose rebuildBundles aproba@1.2.0
+1092 info install aproba@1.2.0
+1093 info postinstall aproba@1.2.0
+1094 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/are-we-there-yet
+1095 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/are-we-there-yet
+1096 info preinstall are-we-there-yet@1.1.5
+1097 verbose linkStuff [ false,
+1097 verbose linkStuff   false,
+1097 verbose linkStuff   false,
+1097 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1098 info linkStuff are-we-there-yet@1.1.5
+1099 verbose linkBins are-we-there-yet@1.1.5
+1100 verbose linkMans are-we-there-yet@1.1.5
+1101 verbose rebuildBundles are-we-there-yet@1.1.5
+1102 info install are-we-there-yet@1.1.5
+1103 info postinstall are-we-there-yet@1.1.5
+1104 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/balanced-match
+1105 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/balanced-match
+1106 info preinstall balanced-match@1.0.0
+1107 verbose linkStuff [ false,
+1107 verbose linkStuff   false,
+1107 verbose linkStuff   false,
+1107 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1108 info linkStuff balanced-match@1.0.0
+1109 verbose linkBins balanced-match@1.0.0
+1110 verbose linkMans balanced-match@1.0.0
+1111 verbose rebuildBundles balanced-match@1.0.0
+1112 info install balanced-match@1.0.0
+1113 info postinstall balanced-match@1.0.0
+1114 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/brace-expansion
+1115 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/brace-expansion
+1116 info preinstall brace-expansion@1.1.11
+1117 verbose linkStuff [ false,
+1117 verbose linkStuff   false,
+1117 verbose linkStuff   false,
+1117 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1118 info linkStuff brace-expansion@1.1.11
+1119 verbose linkBins brace-expansion@1.1.11
+1120 verbose linkMans brace-expansion@1.1.11
+1121 verbose rebuildBundles brace-expansion@1.1.11
+1122 info install brace-expansion@1.1.11
+1123 info postinstall brace-expansion@1.1.11
+1124 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/chownr
+1125 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/chownr
+1126 info preinstall chownr@1.1.1
+1127 verbose linkStuff [ false,
+1127 verbose linkStuff   false,
+1127 verbose linkStuff   false,
+1127 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1128 info linkStuff chownr@1.1.1
+1129 verbose linkBins chownr@1.1.1
+1130 verbose linkMans chownr@1.1.1
+1131 verbose rebuildBundles chownr@1.1.1
+1132 info install chownr@1.1.1
+1133 info postinstall chownr@1.1.1
+1134 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/code-point-at
+1135 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/code-point-at
+1136 info preinstall code-point-at@1.1.0
+1137 verbose linkStuff [ false,
+1137 verbose linkStuff   false,
+1137 verbose linkStuff   false,
+1137 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1138 info linkStuff code-point-at@1.1.0
+1139 verbose linkBins code-point-at@1.1.0
+1140 verbose linkMans code-point-at@1.1.0
+1141 verbose rebuildBundles code-point-at@1.1.0
+1142 info install code-point-at@1.1.0
+1143 info postinstall code-point-at@1.1.0
+1144 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/concat-map
+1145 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/concat-map
+1146 info preinstall concat-map@0.0.1
+1147 verbose linkStuff [ false,
+1147 verbose linkStuff   false,
+1147 verbose linkStuff   false,
+1147 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1148 info linkStuff concat-map@0.0.1
+1149 verbose linkBins concat-map@0.0.1
+1150 verbose linkMans concat-map@0.0.1
+1151 verbose rebuildBundles concat-map@0.0.1
+1152 info install concat-map@0.0.1
+1153 info postinstall concat-map@0.0.1
+1154 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/console-control-strings
+1155 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/console-control-strings
+1156 info preinstall console-control-strings@1.1.0
+1157 verbose linkStuff [ false,
+1157 verbose linkStuff   false,
+1157 verbose linkStuff   false,
+1157 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1158 info linkStuff console-control-strings@1.1.0
+1159 verbose linkBins console-control-strings@1.1.0
+1160 verbose linkMans console-control-strings@1.1.0
+1161 verbose rebuildBundles console-control-strings@1.1.0
+1162 info install console-control-strings@1.1.0
+1163 info postinstall console-control-strings@1.1.0
+1164 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/core-util-is
+1165 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/core-util-is
+1166 info preinstall core-util-is@1.0.2
+1167 verbose linkStuff [ false,
+1167 verbose linkStuff   false,
+1167 verbose linkStuff   false,
+1167 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1168 info linkStuff core-util-is@1.0.2
+1169 verbose linkBins core-util-is@1.0.2
+1170 verbose linkMans core-util-is@1.0.2
+1171 verbose rebuildBundles core-util-is@1.0.2
+1172 info install core-util-is@1.0.2
+1173 info postinstall core-util-is@1.0.2
+1174 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/debug
+1175 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/debug
+1176 info preinstall debug@4.1.1
+1177 verbose linkStuff [ false,
+1177 verbose linkStuff   false,
+1177 verbose linkStuff   false,
+1177 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1178 info linkStuff debug@4.1.1
+1179 verbose linkBins debug@4.1.1
+1180 verbose linkMans debug@4.1.1
+1181 verbose rebuildBundles debug@4.1.1
+1182 info install debug@4.1.1
+1183 info postinstall debug@4.1.1
+1184 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/deep-extend
+1185 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/deep-extend
+1186 info preinstall deep-extend@0.6.0
+1187 verbose linkStuff [ false,
+1187 verbose linkStuff   false,
+1187 verbose linkStuff   false,
+1187 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1188 info linkStuff deep-extend@0.6.0
+1189 verbose linkBins deep-extend@0.6.0
+1190 verbose linkMans deep-extend@0.6.0
+1191 verbose rebuildBundles deep-extend@0.6.0
+1192 info install deep-extend@0.6.0
+1193 info postinstall deep-extend@0.6.0
+1194 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/delegates
+1195 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/delegates
+1196 info preinstall delegates@1.0.0
+1197 verbose linkStuff [ false,
+1197 verbose linkStuff   false,
+1197 verbose linkStuff   false,
+1197 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1198 info linkStuff delegates@1.0.0
+1199 verbose linkBins delegates@1.0.0
+1200 verbose linkMans delegates@1.0.0
+1201 verbose rebuildBundles delegates@1.0.0
+1202 info install delegates@1.0.0
+1203 info postinstall delegates@1.0.0
+1204 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/detect-libc
+1205 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/detect-libc
+1206 info preinstall detect-libc@1.0.3
+1207 verbose linkStuff [ false,
+1207 verbose linkStuff   false,
+1207 verbose linkStuff   false,
+1207 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1208 info linkStuff detect-libc@1.0.3
+1209 verbose linkBins detect-libc@1.0.3
+1210 verbose link bins [ { 'detect-libc': './bin/detect-libc.js' },
+1210 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1210 verbose link bins   false ]
+1211 verbose linkMans detect-libc@1.0.3
+1212 verbose rebuildBundles detect-libc@1.0.3
+1213 info install detect-libc@1.0.3
+1214 info postinstall detect-libc@1.0.3
+1215 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/fs-minipass
+1216 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/fs-minipass
+1217 info preinstall fs-minipass@1.2.5
+1218 verbose linkStuff [ false,
+1218 verbose linkStuff   false,
+1218 verbose linkStuff   false,
+1218 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1219 info linkStuff fs-minipass@1.2.5
+1220 verbose linkBins fs-minipass@1.2.5
+1221 verbose linkMans fs-minipass@1.2.5
+1222 verbose rebuildBundles fs-minipass@1.2.5
+1223 info install fs-minipass@1.2.5
+1224 info postinstall fs-minipass@1.2.5
+1225 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/fs.realpath
+1226 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/fs.realpath
+1227 info preinstall fs.realpath@1.0.0
+1228 verbose linkStuff [ false,
+1228 verbose linkStuff   false,
+1228 verbose linkStuff   false,
+1228 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1229 info linkStuff fs.realpath@1.0.0
+1230 verbose linkBins fs.realpath@1.0.0
+1231 verbose linkMans fs.realpath@1.0.0
+1232 verbose rebuildBundles fs.realpath@1.0.0
+1233 info install fs.realpath@1.0.0
+1234 info postinstall fs.realpath@1.0.0
+1235 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/gauge
+1236 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/gauge
+1237 info preinstall gauge@2.7.4
+1238 verbose linkStuff [ false,
+1238 verbose linkStuff   false,
+1238 verbose linkStuff   false,
+1238 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1239 info linkStuff gauge@2.7.4
+1240 verbose linkBins gauge@2.7.4
+1241 verbose linkMans gauge@2.7.4
+1242 verbose rebuildBundles gauge@2.7.4
+1243 info install gauge@2.7.4
+1244 info postinstall gauge@2.7.4
+1245 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/glob
+1246 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/glob
+1247 info preinstall glob@7.1.3
+1248 verbose linkStuff [ false,
+1248 verbose linkStuff   false,
+1248 verbose linkStuff   false,
+1248 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1249 info linkStuff glob@7.1.3
+1250 verbose linkBins glob@7.1.3
+1251 verbose linkMans glob@7.1.3
+1252 verbose rebuildBundles glob@7.1.3
+1253 info install glob@7.1.3
+1254 info postinstall glob@7.1.3
+1255 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/has-unicode
+1256 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/has-unicode
+1257 info preinstall has-unicode@2.0.1
+1258 verbose linkStuff [ false,
+1258 verbose linkStuff   false,
+1258 verbose linkStuff   false,
+1258 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1259 info linkStuff has-unicode@2.0.1
+1260 verbose linkBins has-unicode@2.0.1
+1261 verbose linkMans has-unicode@2.0.1
+1262 verbose rebuildBundles has-unicode@2.0.1
+1263 info install has-unicode@2.0.1
+1264 info postinstall has-unicode@2.0.1
+1265 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/iconv-lite
+1266 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/iconv-lite
+1267 info preinstall iconv-lite@0.4.24
+1268 verbose linkStuff [ false,
+1268 verbose linkStuff   false,
+1268 verbose linkStuff   false,
+1268 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1269 info linkStuff iconv-lite@0.4.24
+1270 verbose linkBins iconv-lite@0.4.24
+1271 verbose linkMans iconv-lite@0.4.24
+1272 verbose rebuildBundles iconv-lite@0.4.24
+1273 info install iconv-lite@0.4.24
+1274 info postinstall iconv-lite@0.4.24
+1275 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ignore-walk
+1276 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ignore-walk
+1277 info preinstall ignore-walk@3.0.1
+1278 verbose linkStuff [ false,
+1278 verbose linkStuff   false,
+1278 verbose linkStuff   false,
+1278 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1279 info linkStuff ignore-walk@3.0.1
+1280 verbose linkBins ignore-walk@3.0.1
+1281 verbose linkMans ignore-walk@3.0.1
+1282 verbose rebuildBundles ignore-walk@3.0.1
+1283 info install ignore-walk@3.0.1
+1284 info postinstall ignore-walk@3.0.1
+1285 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/inflight
+1286 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/inflight
+1287 info preinstall inflight@1.0.6
+1288 verbose linkStuff [ false,
+1288 verbose linkStuff   false,
+1288 verbose linkStuff   false,
+1288 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1289 info linkStuff inflight@1.0.6
+1290 verbose linkBins inflight@1.0.6
+1291 verbose linkMans inflight@1.0.6
+1292 verbose rebuildBundles inflight@1.0.6
+1293 info install inflight@1.0.6
+1294 info postinstall inflight@1.0.6
+1295 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/inherits
+1296 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/inherits
+1297 info preinstall inherits@2.0.3
+1298 verbose linkStuff [ false,
+1298 verbose linkStuff   false,
+1298 verbose linkStuff   false,
+1298 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1299 info linkStuff inherits@2.0.3
+1300 verbose linkBins inherits@2.0.3
+1301 verbose linkMans inherits@2.0.3
+1302 verbose rebuildBundles inherits@2.0.3
+1303 info install inherits@2.0.3
+1304 info postinstall inherits@2.0.3
+1305 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ini
+1306 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ini
+1307 info preinstall ini@1.3.5
+1308 verbose linkStuff [ false,
+1308 verbose linkStuff   false,
+1308 verbose linkStuff   false,
+1308 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1309 info linkStuff ini@1.3.5
+1310 verbose linkBins ini@1.3.5
+1311 verbose linkMans ini@1.3.5
+1312 verbose rebuildBundles ini@1.3.5
+1313 info install ini@1.3.5
+1314 info postinstall ini@1.3.5
+1315 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/is-fullwidth-code-point
+1316 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/is-fullwidth-code-point
+1317 info preinstall is-fullwidth-code-point@1.0.0
+1318 verbose linkStuff [ false,
+1318 verbose linkStuff   false,
+1318 verbose linkStuff   false,
+1318 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1319 info linkStuff is-fullwidth-code-point@1.0.0
+1320 verbose linkBins is-fullwidth-code-point@1.0.0
+1321 verbose linkMans is-fullwidth-code-point@1.0.0
+1322 verbose rebuildBundles is-fullwidth-code-point@1.0.0
+1323 info install is-fullwidth-code-point@1.0.0
+1324 info postinstall is-fullwidth-code-point@1.0.0
+1325 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/isarray
+1326 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/isarray
+1327 info preinstall isarray@1.0.0
+1328 verbose linkStuff [ false,
+1328 verbose linkStuff   false,
+1328 verbose linkStuff   false,
+1328 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1329 info linkStuff isarray@1.0.0
+1330 verbose linkBins isarray@1.0.0
+1331 verbose linkMans isarray@1.0.0
+1332 verbose rebuildBundles isarray@1.0.0
+1333 info install isarray@1.0.0
+1334 info postinstall isarray@1.0.0
+1335 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minimatch
+1336 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minimatch
+1337 info preinstall minimatch@3.0.4
+1338 verbose linkStuff [ false,
+1338 verbose linkStuff   false,
+1338 verbose linkStuff   false,
+1338 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1339 info linkStuff minimatch@3.0.4
+1340 verbose linkBins minimatch@3.0.4
+1341 verbose linkMans minimatch@3.0.4
+1342 verbose rebuildBundles minimatch@3.0.4
+1343 info install minimatch@3.0.4
+1344 info postinstall minimatch@3.0.4
+1345 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minimist
+1346 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minimist
+1347 info preinstall minimist@0.0.8
+1348 verbose linkStuff [ false,
+1348 verbose linkStuff   false,
+1348 verbose linkStuff   false,
+1348 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1349 info linkStuff minimist@0.0.8
+1350 verbose linkBins minimist@0.0.8
+1351 verbose linkMans minimist@0.0.8
+1352 verbose rebuildBundles minimist@0.0.8
+1353 info install minimist@0.0.8
+1354 info postinstall minimist@0.0.8
+1355 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minipass
+1356 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minipass
+1357 info preinstall minipass@2.3.5
+1358 verbose linkStuff [ false,
+1358 verbose linkStuff   false,
+1358 verbose linkStuff   false,
+1358 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1359 info linkStuff minipass@2.3.5
+1360 verbose linkBins minipass@2.3.5
+1361 verbose linkMans minipass@2.3.5
+1362 verbose rebuildBundles minipass@2.3.5
+1363 info install minipass@2.3.5
+1364 info postinstall minipass@2.3.5
+1365 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minizlib
+1366 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/minizlib
+1367 info preinstall minizlib@1.2.1
+1368 verbose linkStuff [ false,
+1368 verbose linkStuff   false,
+1368 verbose linkStuff   false,
+1368 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1369 info linkStuff minizlib@1.2.1
+1370 verbose linkBins minizlib@1.2.1
+1371 verbose linkMans minizlib@1.2.1
+1372 verbose rebuildBundles minizlib@1.2.1
+1373 info install minizlib@1.2.1
+1374 info postinstall minizlib@1.2.1
+1375 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/mkdirp
+1376 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/mkdirp
+1377 info preinstall mkdirp@0.5.1
+1378 verbose linkStuff [ false,
+1378 verbose linkStuff   false,
+1378 verbose linkStuff   false,
+1378 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1379 info linkStuff mkdirp@0.5.1
+1380 verbose linkBins mkdirp@0.5.1
+1381 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1381 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1381 verbose link bins   false ]
+1382 verbose linkMans mkdirp@0.5.1
+1383 verbose rebuildBundles mkdirp@0.5.1
+1384 info install mkdirp@0.5.1
+1385 info postinstall mkdirp@0.5.1
+1386 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ms
+1387 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/ms
+1388 info preinstall ms@2.1.1
+1389 verbose linkStuff [ false,
+1389 verbose linkStuff   false,
+1389 verbose linkStuff   false,
+1389 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1390 info linkStuff ms@2.1.1
+1391 verbose linkBins ms@2.1.1
+1392 verbose linkMans ms@2.1.1
+1393 verbose rebuildBundles ms@2.1.1
+1394 info install ms@2.1.1
+1395 info postinstall ms@2.1.1
+1396 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/needle
+1397 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/needle
+1398 info preinstall needle@2.3.0
+1399 verbose linkStuff [ false,
+1399 verbose linkStuff   false,
+1399 verbose linkStuff   false,
+1399 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1400 info linkStuff needle@2.3.0
+1401 verbose linkBins needle@2.3.0
+1402 verbose link bins [ { needle: './bin/needle' },
+1402 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1402 verbose link bins   false ]
+1403 verbose linkMans needle@2.3.0
+1404 verbose rebuildBundles needle@2.3.0
+1405 info install needle@2.3.0
+1406 info postinstall needle@2.3.0
+1407 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/node-pre-gyp
+1408 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/node-pre-gyp
+1409 info preinstall node-pre-gyp@0.12.0
+1410 verbose linkStuff [ false,
+1410 verbose linkStuff   false,
+1410 verbose linkStuff   false,
+1410 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1411 info linkStuff node-pre-gyp@0.12.0
+1412 verbose linkBins node-pre-gyp@0.12.0
+1413 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1413 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1413 verbose link bins   false ]
+1414 verbose linkMans node-pre-gyp@0.12.0
+1415 verbose rebuildBundles node-pre-gyp@0.12.0
+1416 info install node-pre-gyp@0.12.0
+1417 info postinstall node-pre-gyp@0.12.0
+1418 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/nopt
+1419 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/nopt
+1420 info preinstall nopt@4.0.1
+1421 verbose linkStuff [ false,
+1421 verbose linkStuff   false,
+1421 verbose linkStuff   false,
+1421 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1422 info linkStuff nopt@4.0.1
+1423 verbose linkBins nopt@4.0.1
+1424 verbose link bins [ { nopt: './bin/nopt.js' },
+1424 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1424 verbose link bins   false ]
+1425 verbose linkMans nopt@4.0.1
+1426 verbose rebuildBundles nopt@4.0.1
+1427 info install nopt@4.0.1
+1428 info postinstall nopt@4.0.1
+1429 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npm-bundled
+1430 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npm-bundled
+1431 info preinstall npm-bundled@1.0.6
+1432 verbose linkStuff [ false,
+1432 verbose linkStuff   false,
+1432 verbose linkStuff   false,
+1432 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1433 info linkStuff npm-bundled@1.0.6
+1434 verbose linkBins npm-bundled@1.0.6
+1435 verbose linkMans npm-bundled@1.0.6
+1436 verbose rebuildBundles npm-bundled@1.0.6
+1437 info install npm-bundled@1.0.6
+1438 info postinstall npm-bundled@1.0.6
+1439 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npm-packlist
+1440 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npm-packlist
+1441 info preinstall npm-packlist@1.4.1
+1442 verbose linkStuff [ false,
+1442 verbose linkStuff   false,
+1442 verbose linkStuff   false,
+1442 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1443 info linkStuff npm-packlist@1.4.1
+1444 verbose linkBins npm-packlist@1.4.1
+1445 verbose linkMans npm-packlist@1.4.1
+1446 verbose rebuildBundles npm-packlist@1.4.1
+1447 info install npm-packlist@1.4.1
+1448 info postinstall npm-packlist@1.4.1
+1449 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npmlog
+1450 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/npmlog
+1451 info preinstall npmlog@4.1.2
+1452 verbose linkStuff [ false,
+1452 verbose linkStuff   false,
+1452 verbose linkStuff   false,
+1452 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1453 info linkStuff npmlog@4.1.2
+1454 verbose linkBins npmlog@4.1.2
+1455 verbose linkMans npmlog@4.1.2
+1456 verbose rebuildBundles npmlog@4.1.2
+1457 info install npmlog@4.1.2
+1458 info postinstall npmlog@4.1.2
+1459 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/number-is-nan
+1460 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/number-is-nan
+1461 info preinstall number-is-nan@1.0.1
+1462 verbose linkStuff [ false,
+1462 verbose linkStuff   false,
+1462 verbose linkStuff   false,
+1462 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1463 info linkStuff number-is-nan@1.0.1
+1464 verbose linkBins number-is-nan@1.0.1
+1465 verbose linkMans number-is-nan@1.0.1
+1466 verbose rebuildBundles number-is-nan@1.0.1
+1467 info install number-is-nan@1.0.1
+1468 info postinstall number-is-nan@1.0.1
+1469 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/object-assign
+1470 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/object-assign
+1471 info preinstall object-assign@4.1.1
+1472 verbose linkStuff [ false,
+1472 verbose linkStuff   false,
+1472 verbose linkStuff   false,
+1472 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1473 info linkStuff object-assign@4.1.1
+1474 verbose linkBins object-assign@4.1.1
+1475 verbose linkMans object-assign@4.1.1
+1476 verbose rebuildBundles object-assign@4.1.1
+1477 info install object-assign@4.1.1
+1478 info postinstall object-assign@4.1.1
+1479 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/once
+1480 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/once
+1481 info preinstall once@1.4.0
+1482 verbose linkStuff [ false,
+1482 verbose linkStuff   false,
+1482 verbose linkStuff   false,
+1482 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1483 info linkStuff once@1.4.0
+1484 verbose linkBins once@1.4.0
+1485 verbose linkMans once@1.4.0
+1486 verbose rebuildBundles once@1.4.0
+1487 info install once@1.4.0
+1488 info postinstall once@1.4.0
+1489 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/os-homedir
+1490 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/os-homedir
+1491 info preinstall os-homedir@1.0.2
+1492 verbose linkStuff [ false,
+1492 verbose linkStuff   false,
+1492 verbose linkStuff   false,
+1492 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1493 info linkStuff os-homedir@1.0.2
+1494 verbose linkBins os-homedir@1.0.2
+1495 verbose linkMans os-homedir@1.0.2
+1496 verbose rebuildBundles os-homedir@1.0.2
+1497 info install os-homedir@1.0.2
+1498 info postinstall os-homedir@1.0.2
+1499 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/os-tmpdir
+1500 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/os-tmpdir
+1501 info preinstall os-tmpdir@1.0.2
+1502 verbose linkStuff [ false,
+1502 verbose linkStuff   false,
+1502 verbose linkStuff   false,
+1502 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1503 info linkStuff os-tmpdir@1.0.2
+1504 verbose linkBins os-tmpdir@1.0.2
+1505 verbose linkMans os-tmpdir@1.0.2
+1506 verbose rebuildBundles os-tmpdir@1.0.2
+1507 info install os-tmpdir@1.0.2
+1508 info postinstall os-tmpdir@1.0.2
+1509 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/osenv
+1510 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/osenv
+1511 info preinstall osenv@0.1.5
+1512 verbose linkStuff [ false,
+1512 verbose linkStuff   false,
+1512 verbose linkStuff   false,
+1512 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1513 info linkStuff osenv@0.1.5
+1514 verbose linkBins osenv@0.1.5
+1515 verbose linkMans osenv@0.1.5
+1516 verbose rebuildBundles osenv@0.1.5
+1517 info install osenv@0.1.5
+1518 info postinstall osenv@0.1.5
+1519 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/path-is-absolute
+1520 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/path-is-absolute
+1521 info preinstall path-is-absolute@1.0.1
+1522 verbose linkStuff [ false,
+1522 verbose linkStuff   false,
+1522 verbose linkStuff   false,
+1522 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1523 info linkStuff path-is-absolute@1.0.1
+1524 verbose linkBins path-is-absolute@1.0.1
+1525 verbose linkMans path-is-absolute@1.0.1
+1526 verbose rebuildBundles path-is-absolute@1.0.1
+1527 info install path-is-absolute@1.0.1
+1528 info postinstall path-is-absolute@1.0.1
+1529 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/process-nextick-args
+1530 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/process-nextick-args
+1531 info preinstall process-nextick-args@2.0.0
+1532 verbose linkStuff [ false,
+1532 verbose linkStuff   false,
+1532 verbose linkStuff   false,
+1532 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1533 info linkStuff process-nextick-args@2.0.0
+1534 verbose linkBins process-nextick-args@2.0.0
+1535 verbose linkMans process-nextick-args@2.0.0
+1536 verbose rebuildBundles process-nextick-args@2.0.0
+1537 info install process-nextick-args@2.0.0
+1538 info postinstall process-nextick-args@2.0.0
+1539 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/rc
+1540 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/rc
+1541 info preinstall rc@1.2.8
+1542 verbose linkStuff [ false,
+1542 verbose linkStuff   false,
+1542 verbose linkStuff   false,
+1542 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1543 info linkStuff rc@1.2.8
+1544 verbose linkBins rc@1.2.8
+1545 verbose link bins [ { rc: './cli.js' },
+1545 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1545 verbose link bins   false ]
+1546 verbose linkMans rc@1.2.8
+1547 verbose rebuildBundles rc@1.2.8
+1548 verbose rebuildBundles [ 'minimist' ]
+1549 info install rc@1.2.8
+1550 info postinstall rc@1.2.8
+1551 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/readable-stream
+1552 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/readable-stream
+1553 info preinstall readable-stream@2.3.6
+1554 verbose linkStuff [ false,
+1554 verbose linkStuff   false,
+1554 verbose linkStuff   false,
+1554 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1555 info linkStuff readable-stream@2.3.6
+1556 verbose linkBins readable-stream@2.3.6
+1557 verbose linkMans readable-stream@2.3.6
+1558 verbose rebuildBundles readable-stream@2.3.6
+1559 info install readable-stream@2.3.6
+1560 info postinstall readable-stream@2.3.6
+1561 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/rimraf
+1562 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/rimraf
+1563 info preinstall rimraf@2.6.3
+1564 verbose linkStuff [ false,
+1564 verbose linkStuff   false,
+1564 verbose linkStuff   false,
+1564 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1565 info linkStuff rimraf@2.6.3
+1566 verbose linkBins rimraf@2.6.3
+1567 verbose link bins [ { rimraf: './bin.js' },
+1567 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1567 verbose link bins   false ]
+1568 verbose linkMans rimraf@2.6.3
+1569 verbose rebuildBundles rimraf@2.6.3
+1570 info install rimraf@2.6.3
+1571 info postinstall rimraf@2.6.3
+1572 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/safe-buffer
+1573 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/safe-buffer
+1574 info preinstall safe-buffer@5.1.2
+1575 verbose linkStuff [ false,
+1575 verbose linkStuff   false,
+1575 verbose linkStuff   false,
+1575 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1576 info linkStuff safe-buffer@5.1.2
+1577 verbose linkBins safe-buffer@5.1.2
+1578 verbose linkMans safe-buffer@5.1.2
+1579 verbose rebuildBundles safe-buffer@5.1.2
+1580 info install safe-buffer@5.1.2
+1581 info postinstall safe-buffer@5.1.2
+1582 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/safer-buffer
+1583 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/safer-buffer
+1584 info preinstall safer-buffer@2.1.2
+1585 verbose linkStuff [ false,
+1585 verbose linkStuff   false,
+1585 verbose linkStuff   false,
+1585 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1586 info linkStuff safer-buffer@2.1.2
+1587 verbose linkBins safer-buffer@2.1.2
+1588 verbose linkMans safer-buffer@2.1.2
+1589 verbose rebuildBundles safer-buffer@2.1.2
+1590 info install safer-buffer@2.1.2
+1591 info postinstall safer-buffer@2.1.2
+1592 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/sax
+1593 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/sax
+1594 info preinstall sax@1.2.4
+1595 verbose linkStuff [ false,
+1595 verbose linkStuff   false,
+1595 verbose linkStuff   false,
+1595 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1596 info linkStuff sax@1.2.4
+1597 verbose linkBins sax@1.2.4
+1598 verbose linkMans sax@1.2.4
+1599 verbose rebuildBundles sax@1.2.4
+1600 info install sax@1.2.4
+1601 info postinstall sax@1.2.4
+1602 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/semver
+1603 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/semver
+1604 info preinstall semver@5.7.0
+1605 verbose linkStuff [ false,
+1605 verbose linkStuff   false,
+1605 verbose linkStuff   false,
+1605 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1606 info linkStuff semver@5.7.0
+1607 verbose linkBins semver@5.7.0
+1608 verbose link bins [ { semver: './bin/semver' },
+1608 verbose link bins   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/.bin',
+1608 verbose link bins   false ]
+1609 verbose linkMans semver@5.7.0
+1610 verbose rebuildBundles semver@5.7.0
+1611 info install semver@5.7.0
+1612 info postinstall semver@5.7.0
+1613 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/set-blocking
+1614 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/set-blocking
+1615 info preinstall set-blocking@2.0.0
+1616 verbose linkStuff [ false,
+1616 verbose linkStuff   false,
+1616 verbose linkStuff   false,
+1616 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1617 info linkStuff set-blocking@2.0.0
+1618 verbose linkBins set-blocking@2.0.0
+1619 verbose linkMans set-blocking@2.0.0
+1620 verbose rebuildBundles set-blocking@2.0.0
+1621 info install set-blocking@2.0.0
+1622 info postinstall set-blocking@2.0.0
+1623 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/signal-exit
+1624 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/signal-exit
+1625 info preinstall signal-exit@3.0.2
+1626 verbose linkStuff [ false,
+1626 verbose linkStuff   false,
+1626 verbose linkStuff   false,
+1626 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1627 info linkStuff signal-exit@3.0.2
+1628 verbose linkBins signal-exit@3.0.2
+1629 verbose linkMans signal-exit@3.0.2
+1630 verbose rebuildBundles signal-exit@3.0.2
+1631 info install signal-exit@3.0.2
+1632 info postinstall signal-exit@3.0.2
+1633 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/string-width
+1634 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/string-width
+1635 info preinstall string-width@1.0.2
+1636 verbose linkStuff [ false,
+1636 verbose linkStuff   false,
+1636 verbose linkStuff   false,
+1636 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1637 info linkStuff string-width@1.0.2
+1638 verbose linkBins string-width@1.0.2
+1639 verbose linkMans string-width@1.0.2
+1640 verbose rebuildBundles string-width@1.0.2
+1641 info install string-width@1.0.2
+1642 info postinstall string-width@1.0.2
+1643 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/string_decoder
+1644 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/string_decoder
+1645 info preinstall string_decoder@1.1.1
+1646 verbose linkStuff [ false,
+1646 verbose linkStuff   false,
+1646 verbose linkStuff   false,
+1646 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1647 info linkStuff string_decoder@1.1.1
+1648 verbose linkBins string_decoder@1.1.1
+1649 verbose linkMans string_decoder@1.1.1
+1650 verbose rebuildBundles string_decoder@1.1.1
+1651 info install string_decoder@1.1.1
+1652 info postinstall string_decoder@1.1.1
+1653 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/strip-ansi
+1654 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/strip-ansi
+1655 info preinstall strip-ansi@3.0.1
+1656 verbose linkStuff [ false,
+1656 verbose linkStuff   false,
+1656 verbose linkStuff   false,
+1656 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1657 info linkStuff strip-ansi@3.0.1
+1658 verbose linkBins strip-ansi@3.0.1
+1659 verbose linkMans strip-ansi@3.0.1
+1660 verbose rebuildBundles strip-ansi@3.0.1
+1661 info install strip-ansi@3.0.1
+1662 info postinstall strip-ansi@3.0.1
+1663 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/strip-json-comments
+1664 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/strip-json-comments
+1665 info preinstall strip-json-comments@2.0.1
+1666 verbose linkStuff [ false,
+1666 verbose linkStuff   false,
+1666 verbose linkStuff   false,
+1666 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1667 info linkStuff strip-json-comments@2.0.1
+1668 verbose linkBins strip-json-comments@2.0.1
+1669 verbose linkMans strip-json-comments@2.0.1
+1670 verbose rebuildBundles strip-json-comments@2.0.1
+1671 info install strip-json-comments@2.0.1
+1672 info postinstall strip-json-comments@2.0.1
+1673 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/tar
+1674 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/tar
+1675 info preinstall tar@4.4.8
+1676 verbose linkStuff [ false,
+1676 verbose linkStuff   false,
+1676 verbose linkStuff   false,
+1676 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1677 info linkStuff tar@4.4.8
+1678 verbose linkBins tar@4.4.8
+1679 verbose linkMans tar@4.4.8
+1680 verbose rebuildBundles tar@4.4.8
+1681 info install tar@4.4.8
+1682 info postinstall tar@4.4.8
+1683 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/util-deprecate
+1684 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/util-deprecate
+1685 info preinstall util-deprecate@1.0.2
+1686 verbose linkStuff [ false,
+1686 verbose linkStuff   false,
+1686 verbose linkStuff   false,
+1686 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1687 info linkStuff util-deprecate@1.0.2
+1688 verbose linkBins util-deprecate@1.0.2
+1689 verbose linkMans util-deprecate@1.0.2
+1690 verbose rebuildBundles util-deprecate@1.0.2
+1691 info install util-deprecate@1.0.2
+1692 info postinstall util-deprecate@1.0.2
+1693 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/wide-align
+1694 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/wide-align
+1695 info preinstall wide-align@1.1.3
+1696 verbose linkStuff [ false,
+1696 verbose linkStuff   false,
+1696 verbose linkStuff   false,
+1696 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1697 info linkStuff wide-align@1.1.3
+1698 verbose linkBins wide-align@1.1.3
+1699 verbose linkMans wide-align@1.1.3
+1700 verbose rebuildBundles wide-align@1.1.3
+1701 info install wide-align@1.1.3
+1702 info postinstall wide-align@1.1.3
+1703 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/wrappy
+1704 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/wrappy
+1705 info preinstall wrappy@1.0.2
+1706 verbose linkStuff [ false,
+1706 verbose linkStuff   false,
+1706 verbose linkStuff   false,
+1706 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1707 info linkStuff wrappy@1.0.2
+1708 verbose linkBins wrappy@1.0.2
+1709 verbose linkMans wrappy@1.0.2
+1710 verbose rebuildBundles wrappy@1.0.2
+1711 info install wrappy@1.0.2
+1712 info postinstall wrappy@1.0.2
+1713 verbose rebuild bundle /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/yallist
+1714 info build /Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules/yallist
+1715 info preinstall yallist@3.0.3
+1716 verbose linkStuff [ false,
+1716 verbose linkStuff   false,
+1716 verbose linkStuff   false,
+1716 verbose linkStuff   '/Users/Justin/Desktop/JVP/node_modules/fsevents/node_modules' ]
+1717 info linkStuff yallist@3.0.3
+1718 verbose linkBins yallist@3.0.3
+1719 verbose linkMans yallist@3.0.3
+1720 verbose rebuildBundles yallist@3.0.3
+1721 info install yallist@3.0.3
+1722 info postinstall yallist@3.0.3
+1723 info install fsevents@1.2.9
+1724 verbose unsafe-perm in lifecycle true
+1725 info fsevents@1.2.9 Failed to exec install script
+1726 error fsevents@1.2.9 install: `node install`
+1726 error Exit status 7
+1727 error Failed at the fsevents@1.2.9 install script.
+1727 error This is most likely a problem with the fsevents package,
+1727 error not with npm itself.
+1727 error Tell the author that this fails on your system:
+1727 error     node install
+1727 error You can get their info via:
+1727 error     npm owner ls fsevents
+1727 error There is likely additional logging output above.
+1728 error System Darwin 18.6.0
+1729 error command "node" "/usr/local/bin/npm" "install"
+1730 error cwd /Users/Justin/Desktop/JVP
+1731 error node -v v0.10.33
+1732 error npm -v 1.4.28
+1733 error code ELIFECYCLE
+1734 verbose exit [ 1, true ]
