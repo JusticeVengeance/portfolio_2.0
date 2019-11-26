@@ -365,6 +365,11 @@ figure .box.section {
 .is-horizontal-center {
   justify-content: center; }
 
+.marketing-icon {
+  display: flex;
+  margin: 0 auto;
+  max-width: 200px; }
+
 .modal-content img {
   border: 3px solid #000;
   border-radius: 6px; }
