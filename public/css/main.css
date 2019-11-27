@@ -428,7 +428,9 @@ p.title {
   #proficiencies .columns .column p.has-text-weight-light {
     line-height: 0.9em; }
   #proficiencies .columns .column p.has-text-weight-normal {
-    line-height: 0.5em; } }
+    line-height: 0.5em; }
+  .title-container .widget .center h4 {
+    font-size: 25px; } }
 
 @media only screen and (min-width: 1920px) {
   .city-image-topper img {
