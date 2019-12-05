@@ -547,3 +547,9 @@ p {
 		}
 	}
 }
+@media only screen and (max-width: 768px) {
+	.gradient-btn {
+		display: block;
+		margin: 0 auto;
+	}
+}
