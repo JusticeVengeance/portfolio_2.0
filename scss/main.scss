@@ -553,8 +553,10 @@ p {
 		margin: 0 auto;
 	}
 	#thumbnail {
-		.bg {
-		  	height: 100vh;
+		display: flex;
+	    flex-direction: column;
+		.bg, .overlay {
+		  	flex-grow: 1;
 		}
 	}
 }

@@ -441,5 +441,8 @@ p.title {
   .gradient-btn {
     display: block;
     margin: 0 auto; }
-  #thumbnail .bg {
-    height: 100vh; } }
+  #thumbnail {
+    display: flex;
+    flex-direction: column; }
+    #thumbnail .bg, #thumbnail .overlay {
+      flex-grow: 1; } }
