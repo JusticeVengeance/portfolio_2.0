@@ -552,4 +552,9 @@ p {
 		display: block;
 		margin: 0 auto;
 	}
+	#thumbnail {
+		.bg {
+		  	height: 100vh;
+		}
+	}
 }

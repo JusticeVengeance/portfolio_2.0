@@ -440,4 +440,6 @@ p.title {
 @media only screen and (max-width: 768px) {
   .gradient-btn {
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #thumbnail .bg {
+    height: 100vh; } }
